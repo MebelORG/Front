@@ -1,0 +1,14 @@
+.toggler{
+  &__item {
+    cursor: pointer;
+    background: inherit;
+    color: #666;
+    border: none;
+    font-size: 14px;
+    &:not(:disabled):not(.disabled).active, &:hover, &:focus,&:active,&:not(:disabled):not(.disabled):active{
+      background: #eaeaea;
+      color: #333;
+      box-shadow: none;
+    }
+  }
+}

@@ -1,0 +1,1329 @@
+//= template/header.html
+
+	<section id="search-page">
+		<div class="container">
+			<div class="row">
+
+			</div>
+			<div class="row">
+				<div class="col-xl-2">
+					<div class="search-page__filter">
+						<div class="search-page__filter_wrap search-page__filter_price">
+							<h5>Цена</h5>
+							<button class="search__page_arr" data-toggle="collapse" data-target="#filter-price" aria-controls="filter-price">
+								<img src="img/up-ar.svg" alt="">
+							</button>
+							<div class="show" id="filter-price">
+								<div class="filter__price_wrap">
+									<input type="text" id="minCost" value="2500">
+									<input type="text" id="maxCost" value="125 000">
+									<div id="track" class="filter__track"></div>
+								</div>
+							</div>
+						</div>
+						<div class="search-page__filter_wrap search-page__filter_size">
+							<h5>Габариты (мм)</h5>
+							<button class="search__page_arr" data-toggle="collapse" data-target="#filter-size" aria-controls="filter-size">
+								<img src="img/up-ar.svg" alt="">
+							</button>
+							<div class="show" id="filter-size">
+								<div class="filter__size_wrap">
+									<p>Ширина:</p>
+									<input type="text" placeholder="От">
+									<input type="text" placeholder="До">
+								</div>
+								<div class="filter__size_wrap">
+									<p>Высота:</p>
+									<input type="text" placeholder="От">
+									<input type="text" placeholder="До">
+								</div>
+								<div class="filter__size_wrap">
+									<p>Глубина:</p>
+									<input type="text" placeholder="От">
+									<input type="text" placeholder="До">
+								</div>
+							</div>
+						</div>
+						<div class="search-page__filter_wrap search-page__filter_manufacturer">
+							<h5>Производители</h5>
+							<button class="search__page_arr" data-toggle="collapse" data-target="#filter-manufacture" aria-controls="filter-manufacture">
+								<img src="img/up-ar.svg" alt="">
+							</button>
+							<div class="show" id="filter-manufacture">
+								<div class="filter__manufacturer_wrap">
+									<div class="manufacturer__wrap_num">
+										<label>
+											<input type="checkbox">
+											Ого го Обстановочка
+										</label>
+										<p class="filter__num">4</p>
+									</div>
+									<div class="manufacturer__wrap_num">
+										<label>
+											<input type="checkbox">
+											Мебель боровичи
+										</label>
+										<p class="filter__num">58</p>
+									</div>
+									<div class="manufacturer__wrap_num">
+										<label>
+											<input type="checkbox">
+											Мебель Маркет
+										</label>
+										<p class="filter__num">44</p>
+									</div>
+									<div class="manufacturer__wrap_num">
+										<label>
+											<input type="checkbox">
+											Мебель Лайм
+										</label>
+										<p class="filter__num">111</p>
+									</div>
+									<div class="manufacturer__wrap_num">
+										<label>
+											<input type="checkbox">
+											Ваша комната
+										</label>
+										<p class="filter__num">15</p>
+									</div>
+									<div class="manufacturer__wrap_num">
+										<label>
+											<input type="checkbox">
+											Мебель Виа
+										</label>
+										<p class="filter__num">7</p>
+									</div>
+									<div class="manufacturer__wrap_num">
+										<label>
+											<input type="checkbox">
+											КупиСтол
+										</label>
+										<p class="filter__num">205</p>
+									</div>
+									<div class="manufacturer__wrap_num">
+										<label>
+											<input type="checkbox">
+											Мебель Виа
+										</label>
+										<p class="filter__num">7</p>
+									</div>
+									<div class="manufacturer__wrap_num">
+										<label>
+											<input type="checkbox">
+											КупиСтол
+										</label>
+										<p class="filter__num">205</p>
+									</div>
+									<div class="manufacturer__wrap_num">
+										<label>
+											<input type="checkbox">
+											Мебель Виа
+										</label>
+										<p class="filter__num">7</p>
+									</div>
+									<div class="manufacturer__wrap_num">
+										<label>
+											<input type="checkbox">
+											КупиСтол
+										</label>
+										<p class="filter__num">205</p>
+									</div>
+								</div>
+								<span class="filter__show-more">Показать все</span>
+							</div>
+						</div>
+						<div class="search-page__filter_wrap search-page__filter_color">
+							<h5>Цвет</h5>
+							<button class="search__page_arr" data-toggle="collapse" data-target="#filter-color" aria-controls="filter-color">
+								<img src="img/up-ar.svg" alt="">
+							</button>
+							<div class="show" id="filter-color">
+								<div class="filter__color_wrap">
+									<div class="color__wrap_num">
+										<label>
+											<input type="checkbox">
+											ясень шимо цвеи в...
+										</label>
+										<p class="filter__num">9</p>
+									</div>
+									<div class="color__wrap_num">
+										<label>
+											<input type="checkbox">
+											венге/белфорт
+										</label>
+										<p class="filter__num">126</p>
+									</div>
+									<div class="color__wrap_num">
+										<label>
+											<input type="checkbox">
+											вишня
+										</label>
+										<p class="filter__num">77</p>
+									</div>
+									<div class="color__wrap_num">
+										<label>
+											<input type="checkbox">
+											дуб Линдберг
+										</label>
+										<p class="filter__num">17</p>
+									</div>
+									<div class="color__wrap_num">
+										<label>
+											<input type="checkbox">
+											дуб саном
+										</label>
+										<p class="filter__num">69</p>
+									</div>
+									<div class="color__wrap_num">
+										<label>
+											<input type="checkbox">
+											белый
+										</label>
+										<p class="filter__num">3</p>
+									</div>
+									<div class="color__wrap_num">
+										<label>
+											<input type="checkbox">
+											розовый
+										</label>
+										<p class="filter__num">135</p>
+									</div>
+									<div class="color__wrap_num">
+										<label>
+											<input type="checkbox">
+											белый
+										</label>
+										<p class="filter__num">3</p>
+									</div>
+									<div class="color__wrap_num">
+										<label>
+											<input type="checkbox">
+											розовый
+										</label>
+										<p class="filter__num">135</p>
+									</div>
+									<div class="color__wrap_num">
+										<label>
+											<input type="checkbox">
+											белый
+										</label>
+										<p class="filter__num">3</p>
+									</div>
+									<div class="color__wrap_num">
+										<label>
+											<input type="checkbox">
+											розовый
+										</label>
+										<p class="filter__num">135</p>
+									</div>
+								</div>
+								<span class="filter__show-more">Показать все</span>
+							</div>
+						</div>
+						<div class="search-page__filter_wrap search-page__filter_show">
+							<button class="filter__show_btn">Показать</button>
+							<span class="filter__show_reset">Сбросить</span>
+							<a class="filter__show_all" href="">Все фильтры <img src="img/right-arr.svg" alt=""></a>
+						</div>
+					</div>
+				</div>
+				<div class="col-xl-10">
+					<div class="row">
+						<div class="col-xl-12">
+							<div class="bread-crumbs">
+								<ul class="bread-crumbs__list">
+									<li>
+										<a class="bread__link bread__home" href="">
+											<svg width="13" height="13" viewBox="0 0 13 13" fill="none" xmlns="http://www.w3.org/2000/svg">
+											<path d="M10.9541 13H8.07127C7.961 13 7.87151 12.9118 7.87151 12.803V8.79271H5.12809V12.803C5.12809 12.9118 5.0386 13 4.92833 13H2.04468C1.93441 13 1.84492 12.9118 1.84492 12.803V6.26085H0.199746C0.117847 6.26085 0.0443375 6.21161 0.0139749 6.13676C-0.0159883 6.06191 0.00318814 5.97643 0.0623154 5.92088L6.36177 0.0539208C6.43888 -0.0181704 6.55913 -0.0177765 6.63663 0.0539208L12.9377 5.92088C12.9968 5.97643 13.016 6.06191 12.986 6.13676C12.9557 6.21161 12.8822 6.26085 12.8003 6.26085H11.1539V12.803C11.1539 12.9118 11.0644 13 10.9541 13ZM8.27102 12.6061H10.7544V6.06388C10.7544 5.95516 10.8439 5.86691 10.9541 5.86691H12.2977L6.4992 0.467953L0.702329 5.86691H2.04468C2.15494 5.86691 2.24443 5.95516 2.24443 6.06388V12.6061H4.72858V8.59574C4.72858 8.48701 4.81807 8.39877 4.92833 8.39877H8.07127C8.18153 8.39877 8.27102 8.48701 8.27102 8.59574V12.6061Z" fill="#333333"/>
+											</svg>
+										</a>
+									</li>
+									<li>
+										<a class="bread__link" href="">Кухонные гарнитуры</a>
+									</li>
+									<li>
+										<a class="bread__link" href="">Кухня и столовая</a>
+									</li>
+								</ul>
+							</div>
+						</div>
+					</div>
+					<div class="row row-top">
+						<h2 class="search-page__title">Найдено 67 по запросу “Кровать”</h2>
+						<div class="selector">
+							<select name="" id="selector">
+								<option value="">По дате</option>
+								<option value="">По рейтингу</option>
+								<option value="">По рейтингу</option>
+							</select>
+							<img src="img/btn-arrow.svg" alt="">
+						</div>
+					</div>
+					<div class="row">
+						<div class="col-auto">
+							<div class="item">
+								<div class="item__img">
+									<a class="item__link" href="">
+										<img src="img/search.jpg" alt="">
+										<div class="item__img_overlay">
+											<div class="item__img_sale">
+												-25%
+											</div>
+											<div class="item__img_wrap">
+												<img class="item__img_compare" src="img/compare.svg" alt="">
+											</div>
+											<div class="item__img_wrap">
+												<img class="item__img_like" src="img/like.svg" alt="">
+											</div>
+										</div>
+									</a>
+									<a class="item__title" href="">Кухонный гарнитур Кухня "Катя-2" 1,6м</a>
+									<div class="item__bottom">
+										<div class="item__prices">
+											<p class="item__last-price">3 500 руб.</p>
+											<p class="item__now-price">3 500 руб.</p>
+										</div>
+										<button class="cta-btn__empty">В корзину</button>
+									</div>
+								</div>
+								<div class="item__overlay">
+									<div class="item__overlay_bottom">
+										<p>В наличии</p>
+										<p>Производитель: <a href="">Мэрдэс</a></p>
+										 <p>Габариты: 1100 х 765 х 620</p>
+									</div>
+								</div>
+							</div>
+						</div>
+						<div class="col-auto">
+							<div class="item">
+								<div class="item__img">
+									<a class="item__link" href="">
+										<img src="img/search.jpg" alt="">
+										<div class="item__img_overlay">
+											<div class="item__img_sale">
+												-25%
+											</div>
+											<div class="item__img_wrap">
+												<img class="item__img_compare" src="img/compare.svg" alt="">
+											</div>
+											<div class="item__img_wrap">
+												<img class="item__img_like" src="img/like.svg" alt="">
+											</div>
+										</div>
+									</a>
+									<a class="item__title" href="">Кухонный гарнитур Кухня "Катя-2" 1,6м</a>
+									<div class="item__bottom">
+										<div class="item__prices">
+											<p class="item__last-price">3 500 руб.</p>
+											<p class="item__now-price">3 500 руб.</p>
+										</div>
+										<button class="cta-btn__empty">В корзину</button>
+									</div>
+								</div>
+								<div class="item__overlay">
+									<div class="item__overlay_bottom">
+										<p>В наличии</p>
+										<p>Производитель: <a href="">Мэрдэс</a></p>
+										 <p>Габариты: 1100 х 765 х 620</p>
+									</div>
+								</div>
+							</div>
+						</div>
+						<div class="col-auto">
+							<div class="item">
+								<div class="item__img">
+									<a class="item__link" href="">
+										<img src="img/search.jpg" alt="">
+										<div class="item__img_overlay">
+											<div class="item__img_sale">
+												-25%
+											</div>
+											<div class="item__img_wrap">
+												<img class="item__img_compare" src="img/compare.svg" alt="">
+											</div>
+											<div class="item__img_wrap">
+												<img class="item__img_like" src="img/like.svg" alt="">
+											</div>
+										</div>
+									</a>
+									<a class="item__title" href="">Кухонный гарнитур Кухня "Катя-2" 1,6м</a>
+									<div class="item__bottom">
+										<div class="item__prices">
+											<p class="item__last-price">3 500 руб.</p>
+											<p class="item__now-price">3 500 руб.</p>
+										</div>
+										<button class="cta-btn__empty">В корзину</button>
+									</div>
+								</div>
+								<div class="item__overlay">
+									<div class="item__overlay_bottom">
+										<p>В наличии</p>
+										<p>Производитель: <a href="">Мэрдэс</a></p>
+										 <p>Габариты: 1100 х 765 х 620</p>
+									</div>
+								</div>
+							</div>
+						</div>
+						<div class="col-auto">
+							<div class="item">
+								<div class="item__img">
+									<a class="item__link" href="">
+										<img src="img/search.jpg" alt="">
+										<div class="item__img_overlay">
+											<div class="item__img_sale">
+												-25%
+											</div>
+											<div class="item__img_wrap">
+												<img class="item__img_compare" src="img/compare.svg" alt="">
+											</div>
+											<div class="item__img_wrap">
+												<img class="item__img_like" src="img/like.svg" alt="">
+											</div>
+										</div>
+									</a>
+									<a class="item__title" href="">Кухонный гарнитур Кухня "Катя-2" 1,6м</a>
+									<div class="item__bottom">
+										<div class="item__prices">
+											<p class="item__last-price">3 500 руб.</p>
+											<p class="item__now-price">3 500 руб.</p>
+										</div>
+										<button class="cta-btn__empty">В корзину</button>
+									</div>
+								</div>
+								<div class="item__overlay">
+									<div class="item__overlay_bottom">
+										<p>В наличии</p>
+										<p>Производитель: <a href="">Мэрдэс</a></p>
+										 <p>Габариты: 1100 х 765 х 620</p>
+									</div>
+								</div>
+							</div>
+						</div>
+						<div class="col-auto">
+							<div class="item">
+								<div class="item__img">
+									<a class="item__link" href="">
+										<img src="img/search.jpg" alt="">
+										<div class="item__img_overlay">
+											<div class="item__img_sale">
+												-25%
+											</div>
+											<div class="item__img_wrap">
+												<img class="item__img_compare" src="img/compare.svg" alt="">
+											</div>
+											<div class="item__img_wrap">
+												<img class="item__img_like" src="img/like.svg" alt="">
+											</div>
+										</div>
+									</a>
+									<a class="item__title" href="">Кухонный гарнитур Кухня "Катя-2" 1,6м</a>
+									<div class="item__bottom">
+										<div class="item__prices">
+											<p class="item__last-price">3 500 руб.</p>
+											<p class="item__now-price">3 500 руб.</p>
+										</div>
+										<button class="cta-btn__empty">В корзину</button>
+									</div>
+								</div>
+								<div class="item__overlay">
+									<div class="item__overlay_bottom">
+										<p>В наличии</p>
+										<p>Производитель: <a href="">Мэрдэс</a></p>
+										 <p>Габариты: 1100 х 765 х 620</p>
+									</div>
+								</div>
+							</div>
+						</div>
+						<div class="col-auto">
+							<div class="item">
+								<div class="item__img">
+									<a class="item__link" href="">
+										<img src="img/search.jpg" alt="">
+										<div class="item__img_overlay">
+											<div class="item__img_sale">
+												-25%
+											</div>
+											<div class="item__img_wrap">
+												<img class="item__img_compare" src="img/compare.svg" alt="">
+											</div>
+											<div class="item__img_wrap">
+												<img class="item__img_like" src="img/like.svg" alt="">
+											</div>
+										</div>
+									</a>
+									<a class="item__title" href="">Кухонный гарнитур Кухня "Катя-2" 1,6м</a>
+									<div class="item__bottom">
+										<div class="item__prices">
+											<p class="item__last-price">3 500 руб.</p>
+											<p class="item__now-price">3 500 руб.</p>
+										</div>
+										<button class="cta-btn__empty">В корзину</button>
+									</div>
+								</div>
+								<div class="item__overlay">
+									<div class="item__overlay_bottom">
+										<p>В наличии</p>
+										<p>Производитель: <a href="">Мэрдэс</a></p>
+										 <p>Габариты: 1100 х 765 х 620</p>
+									</div>
+								</div>
+							</div>
+						</div>
+						<div class="col-auto">
+							<div class="item">
+								<div class="item__img">
+									<a class="item__link" href="">
+										<img src="img/search.jpg" alt="">
+										<div class="item__img_overlay">
+											<div class="item__img_sale">
+												-25%
+											</div>
+											<div class="item__img_wrap">
+												<img class="item__img_compare" src="img/compare.svg" alt="">
+											</div>
+											<div class="item__img_wrap">
+												<img class="item__img_like" src="img/like.svg" alt="">
+											</div>
+										</div>
+									</a>
+									<a class="item__title" href="">Кухонный гарнитур Кухня "Катя-2" 1,6м</a>
+									<div class="item__bottom">
+										<div class="item__prices">
+											<p class="item__last-price">3 500 руб.</p>
+											<p class="item__now-price">3 500 руб.</p>
+										</div>
+										<button class="cta-btn__empty">В корзину</button>
+									</div>
+								</div>
+								<div class="item__overlay">
+									<div class="item__overlay_bottom">
+										<p>В наличии</p>
+										<p>Производитель: <a href="">Мэрдэс</a></p>
+										 <p>Габариты: 1100 х 765 х 620</p>
+									</div>
+								</div>
+							</div>
+						</div>
+						<div class="col-auto">
+							<div class="item">
+								<div class="item__img">
+									<a class="item__link" href="">
+										<img src="img/search.jpg" alt="">
+										<div class="item__img_overlay">
+											<div class="item__img_sale">
+												-25%
+											</div>
+											<div class="item__img_wrap">
+												<img class="item__img_compare" src="img/compare.svg" alt="">
+											</div>
+											<div class="item__img_wrap">
+												<img class="item__img_like" src="img/like.svg" alt="">
+											</div>
+										</div>
+									</a>
+									<a class="item__title" href="">Кухонный гарнитур Кухня "Катя-2" 1,6м</a>
+									<div class="item__bottom">
+										<div class="item__prices">
+											<p class="item__last-price">3 500 руб.</p>
+											<p class="item__now-price">3 500 руб.</p>
+										</div>
+										<button class="cta-btn__empty">В корзину</button>
+									</div>
+								</div>
+								<div class="item__overlay">
+									<div class="item__overlay_bottom">
+										<p>В наличии</p>
+										<p>Производитель: <a href="">Мэрдэс</a></p>
+										 <p>Габариты: 1100 х 765 х 620</p>
+									</div>
+								</div>
+							</div>
+						</div>
+						<div class="col-auto">
+							<div class="item">
+								<div class="item__img">
+									<a class="item__link" href="">
+										<img src="img/search.jpg" alt="">
+										<div class="item__img_overlay">
+											<div class="item__img_sale">
+												-25%
+											</div>
+											<div class="item__img_wrap">
+												<img class="item__img_compare" src="img/compare.svg" alt="">
+											</div>
+											<div class="item__img_wrap">
+												<img class="item__img_like" src="img/like.svg" alt="">
+											</div>
+										</div>
+									</a>
+									<a class="item__title" href="">Кухонный гарнитур Кухня "Катя-2" 1,6м</a>
+									<div class="item__bottom">
+										<div class="item__prices">
+											<p class="item__last-price">3 500 руб.</p>
+											<p class="item__now-price">3 500 руб.</p>
+										</div>
+										<button class="cta-btn__empty">В корзину</button>
+									</div>
+								</div>
+								<div class="item__overlay">
+									<div class="item__overlay_bottom">
+										<p>В наличии</p>
+										<p>Производитель: <a href="">Мэрдэс</a></p>
+										 <p>Габариты: 1100 х 765 х 620</p>
+									</div>
+								</div>
+							</div>
+						</div>
+						<div class="col-auto">
+							<div class="item">
+								<div class="item__img">
+									<a class="item__link" href="">
+										<img src="img/search.jpg" alt="">
+										<div class="item__img_overlay">
+											<div class="item__img_sale">
+												-25%
+											</div>
+											<div class="item__img_wrap">
+												<img class="item__img_compare" src="img/compare.svg" alt="">
+											</div>
+											<div class="item__img_wrap">
+												<img class="item__img_like" src="img/like.svg" alt="">
+											</div>
+										</div>
+									</a>
+									<a class="item__title" href="">Кухонный гарнитур Кухня "Катя-2" 1,6м</a>
+									<div class="item__bottom">
+										<div class="item__prices">
+											<p class="item__last-price">3 500 руб.</p>
+											<p class="item__now-price">3 500 руб.</p>
+										</div>
+										<button class="cta-btn__empty">В корзину</button>
+									</div>
+								</div>
+								<div class="item__overlay">
+									<div class="item__overlay_bottom">
+										<p>В наличии</p>
+										<p>Производитель: <a href="">Мэрдэс</a></p>
+										 <p>Габариты: 1100 х 765 х 620</p>
+									</div>
+								</div>
+							</div>
+						</div>
+						<div class="col-auto">
+							<div class="item">
+								<div class="item__img">
+									<a class="item__link" href="">
+										<img src="img/search.jpg" alt="">
+										<div class="item__img_overlay">
+											<div class="item__img_sale">
+												-25%
+											</div>
+											<div class="item__img_wrap">
+												<img class="item__img_compare" src="img/compare.svg" alt="">
+											</div>
+											<div class="item__img_wrap">
+												<img class="item__img_like" src="img/like.svg" alt="">
+											</div>
+										</div>
+									</a>
+									<a class="item__title" href="">Кухонный гарнитур Кухня "Катя-2" 1,6м</a>
+									<div class="item__bottom">
+										<div class="item__prices">
+											<p class="item__last-price">3 500 руб.</p>
+											<p class="item__now-price">3 500 руб.</p>
+										</div>
+										<button class="cta-btn__empty">В корзину</button>
+									</div>
+								</div>
+								<div class="item__overlay">
+									<div class="item__overlay_bottom">
+										<p>В наличии</p>
+										<p>Производитель: <a href="">Мэрдэс</a></p>
+										 <p>Габариты: 1100 х 765 х 620</p>
+									</div>
+								</div>
+							</div>
+						</div>
+						<div class="col-auto">
+							<div class="item">
+								<div class="item__img">
+									<a class="item__link" href="">
+										<img src="img/search.jpg" alt="">
+										<div class="item__img_overlay">
+											<div class="item__img_sale">
+												-25%
+											</div>
+											<div class="item__img_wrap">
+												<img class="item__img_compare" src="img/compare.svg" alt="">
+											</div>
+											<div class="item__img_wrap">
+												<img class="item__img_like" src="img/like.svg" alt="">
+											</div>
+										</div>
+									</a>
+									<a class="item__title" href="">Кухонный гарнитур Кухня "Катя-2" 1,6м</a>
+									<div class="item__bottom">
+										<div class="item__prices">
+											<p class="item__last-price">3 500 руб.</p>
+											<p class="item__now-price">3 500 руб.</p>
+										</div>
+										<button class="cta-btn__empty">В корзину</button>
+									</div>
+								</div>
+								<div class="item__overlay">
+									<div class="item__overlay_bottom">
+										<p>В наличии</p>
+										<p>Производитель: <a href="">Мэрдэс</a></p>
+										 <p>Габариты: 1100 х 765 х 620</p>
+									</div>
+								</div>
+							</div>
+						</div>
+						<div class="col-auto">
+							<div class="item">
+								<div class="item__img">
+									<a class="item__link" href="">
+										<img src="img/search.jpg" alt="">
+										<div class="item__img_overlay">
+											<div class="item__img_sale">
+												-25%
+											</div>
+											<div class="item__img_wrap">
+												<img class="item__img_compare" src="img/compare.svg" alt="">
+											</div>
+											<div class="item__img_wrap">
+												<img class="item__img_like" src="img/like.svg" alt="">
+											</div>
+										</div>
+									</a>
+									<a class="item__title" href="">Кухонный гарнитур Кухня "Катя-2" 1,6м</a>
+									<div class="item__bottom">
+										<div class="item__prices">
+											<p class="item__last-price">3 500 руб.</p>
+											<p class="item__now-price">3 500 руб.</p>
+										</div>
+										<button class="cta-btn__empty">В корзину</button>
+									</div>
+								</div>
+								<div class="item__overlay">
+									<div class="item__overlay_bottom">
+										<p>В наличии</p>
+										<p>Производитель: <a href="">Мэрдэс</a></p>
+										 <p>Габариты: 1100 х 765 х 620</p>
+									</div>
+								</div>
+							</div>
+						</div>
+						<div class="col-auto">
+							<div class="item">
+								<div class="item__img">
+									<a class="item__link" href="">
+										<img src="img/search.jpg" alt="">
+										<div class="item__img_overlay">
+											<div class="item__img_sale">
+												-25%
+											</div>
+											<div class="item__img_wrap">
+												<img class="item__img_compare" src="img/compare.svg" alt="">
+											</div>
+											<div class="item__img_wrap">
+												<img class="item__img_like" src="img/like.svg" alt="">
+											</div>
+										</div>
+									</a>
+									<a class="item__title" href="">Кухонный гарнитур Кухня "Катя-2" 1,6м</a>
+									<div class="item__bottom">
+										<div class="item__prices">
+											<p class="item__last-price">3 500 руб.</p>
+											<p class="item__now-price">3 500 руб.</p>
+										</div>
+										<button class="cta-btn__empty">В корзину</button>
+									</div>
+								</div>
+								<div class="item__overlay">
+									<div class="item__overlay_bottom">
+										<p>В наличии</p>
+										<p>Производитель: <a href="">Мэрдэс</a></p>
+										 <p>Габариты: 1100 х 765 х 620</p>
+									</div>
+								</div>
+							</div>
+						</div>
+						<div class="col-auto">
+							<div class="item">
+								<div class="item__img">
+									<a class="item__link" href="">
+										<img src="img/search.jpg" alt="">
+										<div class="item__img_overlay">
+											<div class="item__img_sale">
+												-25%
+											</div>
+											<div class="item__img_wrap">
+												<img class="item__img_compare" src="img/compare.svg" alt="">
+											</div>
+											<div class="item__img_wrap">
+												<img class="item__img_like" src="img/like.svg" alt="">
+											</div>
+										</div>
+									</a>
+									<a class="item__title" href="">Кухонный гарнитур Кухня "Катя-2" 1,6м</a>
+									<div class="item__bottom">
+										<div class="item__prices">
+											<p class="item__last-price">3 500 руб.</p>
+											<p class="item__now-price">3 500 руб.</p>
+										</div>
+										<button class="cta-btn__empty">В корзину</button>
+									</div>
+								</div>
+								<div class="item__overlay">
+									<div class="item__overlay_bottom">
+										<p>В наличии</p>
+										<p>Производитель: <a href="">Мэрдэс</a></p>
+										 <p>Габариты: 1100 х 765 х 620</p>
+									</div>
+								</div>
+							</div>
+						</div>
+						<div class="col-auto">
+							<div class="item">
+								<div class="item__img">
+									<a class="item__link" href="">
+										<img src="img/search.jpg" alt="">
+										<div class="item__img_overlay">
+											<div class="item__img_sale">
+												-25%
+											</div>
+											<div class="item__img_wrap">
+												<img class="item__img_compare" src="img/compare.svg" alt="">
+											</div>
+											<div class="item__img_wrap">
+												<img class="item__img_like" src="img/like.svg" alt="">
+											</div>
+										</div>
+									</a>
+									<a class="item__title" href="">Кухонный гарнитур Кухня "Катя-2" 1,6м</a>
+									<div class="item__bottom">
+										<div class="item__prices">
+											<p class="item__last-price">3 500 руб.</p>
+											<p class="item__now-price">3 500 руб.</p>
+										</div>
+										<button class="cta-btn__empty">В корзину</button>
+									</div>
+								</div>
+								<div class="item__overlay">
+									<div class="item__overlay_bottom">
+										<p>В наличии</p>
+										<p>Производитель: <a href="">Мэрдэс</a></p>
+										 <p>Габариты: 1100 х 765 х 620</p>
+									</div>
+								</div>
+							</div>
+						</div>
+						<div class="col-auto">
+							<div class="item">
+								<div class="item__img">
+									<a class="item__link" href="">
+										<img src="img/search.jpg" alt="">
+										<div class="item__img_overlay">
+											<div class="item__img_sale">
+												-25%
+											</div>
+											<div class="item__img_wrap">
+												<img class="item__img_compare" src="img/compare.svg" alt="">
+											</div>
+											<div class="item__img_wrap">
+												<img class="item__img_like" src="img/like.svg" alt="">
+											</div>
+										</div>
+									</a>
+									<a class="item__title" href="">Кухонный гарнитур Кухня "Катя-2" 1,6м</a>
+									<div class="item__bottom">
+										<div class="item__prices">
+											<p class="item__last-price">3 500 руб.</p>
+											<p class="item__now-price">3 500 руб.</p>
+										</div>
+										<button class="cta-btn__empty">В корзину</button>
+									</div>
+								</div>
+								<div class="item__overlay">
+									<div class="item__overlay_bottom">
+										<p>В наличии</p>
+										<p>Производитель: <a href="">Мэрдэс</a></p>
+										 <p>Габариты: 1100 х 765 х 620</p>
+									</div>
+								</div>
+							</div>
+						</div>
+						<div class="col-auto">
+							<div class="item">
+								<div class="item__img">
+									<a class="item__link" href="">
+										<img src="img/search.jpg" alt="">
+										<div class="item__img_overlay">
+											<div class="item__img_sale">
+												-25%
+											</div>
+											<div class="item__img_wrap">
+												<img class="item__img_compare" src="img/compare.svg" alt="">
+											</div>
+											<div class="item__img_wrap">
+												<img class="item__img_like" src="img/like.svg" alt="">
+											</div>
+										</div>
+									</a>
+									<a class="item__title" href="">Кухонный гарнитур Кухня "Катя-2" 1,6м</a>
+									<div class="item__bottom">
+										<div class="item__prices">
+											<p class="item__last-price">3 500 руб.</p>
+											<p class="item__now-price">3 500 руб.</p>
+										</div>
+										<button class="cta-btn__empty">В корзину</button>
+									</div>
+								</div>
+								<div class="item__overlay">
+									<div class="item__overlay_bottom">
+										<p>В наличии</p>
+										<p>Производитель: <a href="">Мэрдэс</a></p>
+										 <p>Габариты: 1100 х 765 х 620</p>
+									</div>
+								</div>
+							</div>
+						</div>
+						<div class="col-auto">
+							<div class="item">
+								<div class="item__img">
+									<a class="item__link" href="">
+										<img src="img/search.jpg" alt="">
+										<div class="item__img_overlay">
+											<div class="item__img_sale">
+												-25%
+											</div>
+											<div class="item__img_wrap">
+												<img class="item__img_compare" src="img/compare.svg" alt="">
+											</div>
+											<div class="item__img_wrap">
+												<img class="item__img_like" src="img/like.svg" alt="">
+											</div>
+										</div>
+									</a>
+									<a class="item__title" href="">Кухонный гарнитур Кухня "Катя-2" 1,6м</a>
+									<div class="item__bottom">
+										<div class="item__prices">
+											<p class="item__last-price">3 500 руб.</p>
+											<p class="item__now-price">3 500 руб.</p>
+										</div>
+										<button class="cta-btn__empty">В корзину</button>
+									</div>
+								</div>
+								<div class="item__overlay">
+									<div class="item__overlay_bottom">
+										<p>В наличии</p>
+										<p>Производитель: <a href="">Мэрдэс</a></p>
+										 <p>Габариты: 1100 х 765 х 620</p>
+									</div>
+								</div>
+							</div>
+						</div>
+						<div class="col-auto">
+							<div class="item">
+								<div class="item__img">
+									<a class="item__link" href="">
+										<img src="img/search.jpg" alt="">
+										<div class="item__img_overlay">
+											<div class="item__img_sale">
+												-25%
+											</div>
+											<div class="item__img_wrap">
+												<img class="item__img_compare" src="img/compare.svg" alt="">
+											</div>
+											<div class="item__img_wrap">
+												<img class="item__img_like" src="img/like.svg" alt="">
+											</div>
+										</div>
+									</a>
+									<a class="item__title" href="">Кухонный гарнитур Кухня "Катя-2" 1,6м</a>
+									<div class="item__bottom">
+										<div class="item__prices">
+											<p class="item__last-price">3 500 руб.</p>
+											<p class="item__now-price">3 500 руб.</p>
+										</div>
+										<button class="cta-btn__empty">В корзину</button>
+									</div>
+								</div>
+								<div class="item__overlay">
+									<div class="item__overlay_bottom">
+										<p>В наличии</p>
+										<p>Производитель: <a href="">Мэрдэс</a></p>
+										 <p>Габариты: 1100 х 765 х 620</p>
+									</div>
+								</div>
+							</div>
+						</div>
+						<div class="col-auto">
+							<div class="item">
+								<div class="item__img">
+									<a class="item__link" href="">
+										<img src="img/search.jpg" alt="">
+										<div class="item__img_overlay">
+											<div class="item__img_sale">
+												-25%
+											</div>
+											<div class="item__img_wrap">
+												<img class="item__img_compare" src="img/compare.svg" alt="">
+											</div>
+											<div class="item__img_wrap">
+												<img class="item__img_like" src="img/like.svg" alt="">
+											</div>
+										</div>
+									</a>
+									<a class="item__title" href="">Кухонный гарнитур Кухня "Катя-2" 1,6м</a>
+									<div class="item__bottom">
+										<div class="item__prices">
+											<p class="item__last-price">3 500 руб.</p>
+											<p class="item__now-price">3 500 руб.</p>
+										</div>
+										<button class="cta-btn__empty">В корзину</button>
+									</div>
+								</div>
+								<div class="item__overlay">
+									<div class="item__overlay_bottom">
+										<p>В наличии</p>
+										<p>Производитель: <a href="">Мэрдэс</a></p>
+										 <p>Габариты: 1100 х 765 х 620</p>
+									</div>
+								</div>
+							</div>
+						</div>
+						<div class="col-auto">
+							<div class="item">
+								<div class="item__img">
+									<a class="item__link" href="">
+										<img src="img/search.jpg" alt="">
+										<div class="item__img_overlay">
+											<div class="item__img_sale">
+												-25%
+											</div>
+											<div class="item__img_wrap">
+												<img class="item__img_compare" src="img/compare.svg" alt="">
+											</div>
+											<div class="item__img_wrap">
+												<img class="item__img_like" src="img/like.svg" alt="">
+											</div>
+										</div>
+									</a>
+									<a class="item__title" href="">Кухонный гарнитур Кухня "Катя-2" 1,6м</a>
+									<div class="item__bottom">
+										<div class="item__prices">
+											<p class="item__last-price">3 500 руб.</p>
+											<p class="item__now-price">3 500 руб.</p>
+										</div>
+										<button class="cta-btn__empty">В корзину</button>
+									</div>
+								</div>
+								<div class="item__overlay">
+									<div class="item__overlay_bottom">
+										<p>В наличии</p>
+										<p>Производитель: <a href="">Мэрдэс</a></p>
+										 <p>Габариты: 1100 х 765 х 620</p>
+									</div>
+								</div>
+							</div>
+						</div>
+						<div class="col-auto">
+							<div class="item">
+								<div class="item__img">
+									<a class="item__link" href="">
+										<img src="img/search.jpg" alt="">
+										<div class="item__img_overlay">
+											<div class="item__img_sale">
+												-25%
+											</div>
+											<div class="item__img_wrap">
+												<img class="item__img_compare" src="img/compare.svg" alt="">
+											</div>
+											<div class="item__img_wrap">
+												<img class="item__img_like" src="img/like.svg" alt="">
+											</div>
+										</div>
+									</a>
+									<a class="item__title" href="">Кухонный гарнитур Кухня "Катя-2" 1,6м</a>
+									<div class="item__bottom">
+										<div class="item__prices">
+											<p class="item__last-price">3 500 руб.</p>
+											<p class="item__now-price">3 500 руб.</p>
+										</div>
+										<button class="cta-btn__empty">В корзину</button>
+									</div>
+								</div>
+								<div class="item__overlay">
+									<div class="item__overlay_bottom">
+										<p>В наличии</p>
+										<p>Производитель: <a href="">Мэрдэс</a></p>
+										 <p>Габариты: 1100 х 765 х 620</p>
+									</div>
+								</div>
+							</div>
+						</div>
+						<div class="col-auto">
+							<div class="item">
+								<div class="item__img">
+									<a class="item__link" href="">
+										<img src="img/search.jpg" alt="">
+										<div class="item__img_overlay">
+											<div class="item__img_sale">
+												-25%
+											</div>
+											<div class="item__img_wrap">
+												<img class="item__img_compare" src="img/compare.svg" alt="">
+											</div>
+											<div class="item__img_wrap">
+												<img class="item__img_like" src="img/like.svg" alt="">
+											</div>
+										</div>
+									</a>
+									<a class="item__title" href="">Кухонный гарнитур Кухня "Катя-2" 1,6м</a>
+									<div class="item__bottom">
+										<div class="item__prices">
+											<p class="item__last-price">3 500 руб.</p>
+											<p class="item__now-price">3 500 руб.</p>
+										</div>
+										<button class="cta-btn__empty">В корзину</button>
+									</div>
+								</div>
+								<div class="item__overlay">
+									<div class="item__overlay_bottom">
+										<p>В наличии</p>
+										<p>Производитель: <a href="">Мэрдэс</a></p>
+										 <p>Габариты: 1100 х 765 х 620</p>
+									</div>
+								</div>
+							</div>
+						</div>
+						<div class="col-auto">
+							<div class="item">
+								<div class="item__img">
+									<a class="item__link" href="">
+										<img src="img/search.jpg" alt="">
+										<div class="item__img_overlay">
+											<div class="item__img_sale">
+												-25%
+											</div>
+											<div class="item__img_wrap">
+												<img class="item__img_compare" src="img/compare.svg" alt="">
+											</div>
+											<div class="item__img_wrap">
+												<img class="item__img_like" src="img/like.svg" alt="">
+											</div>
+										</div>
+									</a>
+									<a class="item__title" href="">Кухонный гарнитур Кухня "Катя-2" 1,6м</a>
+									<div class="item__bottom">
+										<div class="item__prices">
+											<p class="item__last-price">3 500 руб.</p>
+											<p class="item__now-price">3 500 руб.</p>
+										</div>
+										<button class="cta-btn__empty">В корзину</button>
+									</div>
+								</div>
+								<div class="item__overlay">
+									<div class="item__overlay_bottom">
+										<p>В наличии</p>
+										<p>Производитель: <a href="">Мэрдэс</a></p>
+										 <p>Габариты: 1100 х 765 х 620</p>
+									</div>
+								</div>
+							</div>
+						</div>
+						<div class="col-auto">
+							<div class="item">
+								<div class="item__img">
+									<a class="item__link" href="">
+										<img src="img/search.jpg" alt="">
+										<div class="item__img_overlay">
+											<div class="item__img_sale">
+												-25%
+											</div>
+											<div class="item__img_wrap">
+												<img class="item__img_compare" src="img/compare.svg" alt="">
+											</div>
+											<div class="item__img_wrap">
+												<img class="item__img_like" src="img/like.svg" alt="">
+											</div>
+										</div>
+									</a>
+									<a class="item__title" href="">Кухонный гарнитур Кухня "Катя-2" 1,6м</a>
+									<div class="item__bottom">
+										<div class="item__prices">
+											<p class="item__last-price">3 500 руб.</p>
+											<p class="item__now-price">3 500 руб.</p>
+										</div>
+										<button class="cta-btn__empty">В корзину</button>
+									</div>
+								</div>
+								<div class="item__overlay">
+									<div class="item__overlay_bottom">
+										<p>В наличии</p>
+										<p>Производитель: <a href="">Мэрдэс</a></p>
+										 <p>Габариты: 1100 х 765 х 620</p>
+									</div>
+								</div>
+							</div>
+						</div>
+						<div class="col-auto">
+							<div class="item">
+								<div class="item__img">
+									<a class="item__link" href="">
+										<img src="img/search.jpg" alt="">
+										<div class="item__img_overlay">
+											<div class="item__img_sale">
+												-25%
+											</div>
+											<div class="item__img_wrap">
+												<img class="item__img_compare" src="img/compare.svg" alt="">
+											</div>
+											<div class="item__img_wrap">
+												<img class="item__img_like" src="img/like.svg" alt="">
+											</div>
+										</div>
+									</a>
+									<a class="item__title" href="">Кухонный гарнитур Кухня "Катя-2" 1,6м</a>
+									<div class="item__bottom">
+										<div class="item__prices">
+											<p class="item__last-price">3 500 руб.</p>
+											<p class="item__now-price">3 500 руб.</p>
+										</div>
+										<button class="cta-btn__empty">В корзину</button>
+									</div>
+								</div>
+								<div class="item__overlay">
+									<div class="item__overlay_bottom">
+										<p>В наличии</p>
+										<p>Производитель: <a href="">Мэрдэс</a></p>
+										 <p>Габариты: 1100 х 765 х 620</p>
+									</div>
+								</div>
+							</div>
+						</div>
+						<div class="col-auto">
+							<div class="item">
+								<div class="item__img">
+									<a class="item__link" href="">
+										<img src="img/search.jpg" alt="">
+										<div class="item__img_overlay">
+											<div class="item__img_sale">
+												-25%
+											</div>
+											<div class="item__img_wrap">
+												<img class="item__img_compare" src="img/compare.svg" alt="">
+											</div>
+											<div class="item__img_wrap">
+												<img class="item__img_like" src="img/like.svg" alt="">
+											</div>
+										</div>
+									</a>
+									<a class="item__title" href="">Кухонный гарнитур Кухня "Катя-2" 1,6м</a>
+									<div class="item__bottom">
+										<div class="item__prices">
+											<p class="item__last-price">3 500 руб.</p>
+											<p class="item__now-price">3 500 руб.</p>
+										</div>
+										<button class="cta-btn__empty">В корзину</button>
+									</div>
+								</div>
+								<div class="item__overlay">
+									<div class="item__overlay_bottom">
+										<p>В наличии</p>
+										<p>Производитель: <a href="">Мэрдэс</a></p>
+										 <p>Габариты: 1100 х 765 х 620</p>
+									</div>
+								</div>
+							</div>
+						</div>
+						<div class="col-auto">
+							<div class="item">
+								<div class="item__img">
+									<a class="item__link" href="">
+										<img src="img/search.jpg" alt="">
+										<div class="item__img_overlay">
+											<div class="item__img_sale">
+												-25%
+											</div>
+											<div class="item__img_wrap">
+												<img class="item__img_compare" src="img/compare.svg" alt="">
+											</div>
+											<div class="item__img_wrap">
+												<img class="item__img_like" src="img/like.svg" alt="">
+											</div>
+										</div>
+									</a>
+									<a class="item__title" href="">Кухонный гарнитур Кухня "Катя-2" 1,6м</a>
+									<div class="item__bottom">
+										<div class="item__prices">
+											<p class="item__last-price">3 500 руб.</p>
+											<p class="item__now-price">3 500 руб.</p>
+										</div>
+										<button class="cta-btn__empty">В корзину</button>
+									</div>
+								</div>
+								<div class="item__overlay">
+									<div class="item__overlay_bottom">
+										<p>В наличии</p>
+										<p>Производитель: <a href="">Мэрдэс</a></p>
+										 <p>Габариты: 1100 х 765 х 620</p>
+									</div>
+								</div>
+							</div>
+						</div>
+						<div class="col-auto">
+							<div class="item">
+								<div class="item__img">
+									<a class="item__link" href="">
+										<img src="img/search.jpg" alt="">
+										<div class="item__img_overlay">
+											<div class="item__img_sale">
+												-25%
+											</div>
+											<div class="item__img_wrap">
+												<img class="item__img_compare" src="img/compare.svg" alt="">
+											</div>
+											<div class="item__img_wrap">
+												<img class="item__img_like" src="img/like.svg" alt="">
+											</div>
+										</div>
+									</a>
+									<a class="item__title" href="">Кухонный гарнитур Кухня "Катя-2" 1,6м</a>
+									<div class="item__bottom">
+										<div class="item__prices">
+											<p class="item__last-price">3 500 руб.</p>
+											<p class="item__now-price">3 500 руб.</p>
+										</div>
+										<button class="cta-btn__empty">В корзину</button>
+									</div>
+								</div>
+								<div class="item__overlay">
+									<div class="item__overlay_bottom">
+										<p>В наличии</p>
+										<p>Производитель: <a href="">Мэрдэс</a></p>
+										 <p>Габариты: 1100 х 765 х 620</p>
+									</div>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</section>
+	<section id="last" class="not-hover">
+		<div class="container">
+			<div class="row">
+				<div class="col-xl-5 offset-xl-2">
+					<p class="search-page__bottom_text">Центральным местом в любой спальне является кровать. От ее удобства, красоты и комфортабельности зависит, насколько хорошо вы приготовитесь к следующему рабочему дню. Для семейных пар стоит приобрести кровати двуспальные. К большинству предлагаемых нами моделей прилагается ортопедическая решетка, которая обеспечит Вам полноценный отдых. Узнав, сколько стоит кровать, вы будете приятно удивлены. В нашем магазине можно легко подобрать и купить кровать по привлекательной цене. </p>
+				</div>
+			</div>
+		</div>
+	</section>
+
+//= template/footer.html
