@@ -1,6 +1,6 @@
 //= template/header.html
 
-	<section class="promo" id="promo">
+	<section class="promo-shop" id="promo-shop">
 		<div class="container">
 			<div class="row">
 	          <div class="col-12">
@@ -47,17 +47,61 @@
 		</div>
 	</section> -->
 
-	<div class="discount-header">
+	<div class="promoshop-header">
+
 		<div class="container">
-			<div class="discount-header__text">
-				<h1>Сочные скидки</h1>
-				<h2>Лучшие промо коды от ведущих  мебельных магазинов</h2>
+
+			<div class="row">
+
+				<div class="col-md-3">
+					<div class="promoshop-header__info">
+						<div class="promoshop-header__info-pic d-flex align-items-center justify-content-center">
+							<img src="img/company-3.png" alt="">
+						</div>
+					</div>
+					<!-- /promoshop-header__info -->
+				</div>
+				<!-- /col -->
+
+				<div class="col-md-9">
+					<div class="promoshop-header__text">
+						<h1 class="promoshop-header__info-name">
+							Тануки
+							<div class="review-block">
+								<div class="review-block__stars">
+									<img src="img/product-star.svg" alt="">
+									<img src="img/product-star.svg" alt="">
+									<img src="img/product-star.svg" alt="">
+									<img src="img/product-star.svg" alt="">
+									<img src="img/product-star.svg" alt="">
+									<span>15</span>
+								</div>
+							</div>
+						</h1>
+						<p>
+							Тануки - ресторан вкусной и полезной японской кухни. С помощью сервиса можно оформить заказ онлайн с бесплатной доставкой на дом. С помощью онлайн-сервиса также можно зарезервировать столик в любом из ресторанов. Меню включает огромный ассортимент суши, роллов, салатов, первых блюд, а также десертов. Отдельный раздел посвящен детскому меню. Существенно снизить стоимость заказа можно, применив промокод Тануки. Интернет-магазин регулярно проводит акции на отдельные блюда. Кроме того, действует особое предложение в определенные часы заказа. Для повышения удобства пользования сервис доступен через установку мобильного приложения.
+						</p>
+					</div>
+					<!-- /promoshop-header__text -->
+				</div>
+				<!-- /col -->
+
 			</div>
+			<!-- /row -->
+
+
+
+
+
 		</div>
+		<!-- /container -->
+
 	</div>
+	<!-- /promoshop-header -->
 
 	<section class="discount" id="discount">
 		<div class="container">
+
 			<div class="row">
 				<div class="col-lg-3">
 
@@ -166,14 +210,12 @@
 							</div>
 						</div>
 
+						<button type="button" class="filter-list_btn cta-btn__full" data-toggle="modal" data-target="#exampleModalCenter">
+						  Разместить промокод
+						</button>
+
 					</div>
 
-					<!-- <a href="#" class="discount__link">
-						Как это работает?
-					</a> -->
-					<button type="button" class="filter-list_btn cta-btn__full" data-toggle="modal" data-target="#exampleModalCenter">
-					  Разместить промокод
-					</button>
 				</div>
 				<div class="col-lg-9">
 
@@ -493,6 +535,48 @@
 			</div>
 		</div>
 	</section>
+
+	<!-- Modal Promo -->
+	<div class="discount-modal modal fade" id="exampleModalCenter" tabindex="-1" role="dialog" aria-labelledby="exampleModalCenterTitle" aria-hidden="true">
+	  <div class="modal-dialog modal-dialog-centered" role="document">
+	    <div class="modal-content discount-modal__content">
+
+				<div class="discount-modal__header">
+					<h2 class="discount-modal__caption">Нашли акцию?</h2>
+					<p class="discount-modal__desc">Вы хотите добавить свой промокод на наш раздел? Сообщите нашей команде о скидке, заполнив форму ниже </p>
+				</div>
+
+				<form action="" class="discount-modal__form">
+					<div class="discount-modal__block">
+						<h4 class="discount-modal__name">Имя</h4>
+						<input class="discount-modal__input" type="text">
+					</div>
+					<div class="discount-modal__block">
+						<h4 class="discount-modal__name">Email</h4>
+						<input class="discount-modal__input" type="email">
+					</div>
+					<div class="discount-modal__block">
+						<h4 class="discount-modal__name">Магазин</h4>
+						<input class="discount-modal__input" type="text">
+					</div>
+					<div class="discount-modal__block">
+						<h4 class="discount-modal__name">Скидка</h4>
+						<input class="discount-modal__input" type="text">
+					</div>
+					<div class="discount-modal__block">
+						<h4 class="discount-modal__name">Ссылка на акцию</h4>
+						<input class="discount-modal__input" type="text">
+					</div>
+				</form>
+
+				<div class="discount-modal__buttons">
+					<button class="discount-modal__btn cta-btn__full">Отправить</button>
+				</div>
+
+	    </div>
+	  </div>
+	</div>
+	<!-- Modal Promo End -->
 
 
 //= template/footer.html
