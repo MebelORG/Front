@@ -13,13 +13,9 @@
 
 //= partials/old/jquery.sticky-sidebar.min.js
 
+//= partials/old/script.js
+
 //= partials/old/script-2.js
-
-//= partials/old/setup.js
-
-//= partials/old/slick.min.js
-
-//= partials/old/slick.min.js
 
 
 $(document).ready(function(){

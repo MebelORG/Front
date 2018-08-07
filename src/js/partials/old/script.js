@@ -487,7 +487,13 @@ $(document).ready(function(){
     }
     else if($(this).scrollTop() <= 50 && $('.promo-catalog__filter').hasClass('promo-catalog__filter_fix')) {
       $('.promo-catalog__filter').toggleClass('promo-catalog__filter_stable promo-catalog__filter_fix');
+    };
+    if ( $(this).scrollTop() > 50 && $('.discount-category__navbar').hasClass('discount-category__navbar_stable') ){
+      $('.discount-category__navbar').toggleClass('discount-category__navbar_stable discount-category__navbar_fix');
     }
+    else if($(this).scrollTop() <= 50 && $('.discount-category__navbar').hasClass('discount-category__navbar_fix')) {
+      $('.discount-category__navbar').toggleClass('discount-category__navbar_stable discount-category__navbar_fix');
+    };
   });
   $('a[href^="#"], *[data-href^="#"]').on('click', function(e){
         e.preventDefault();

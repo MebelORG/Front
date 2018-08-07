@@ -746,6 +746,26 @@ $('.watched__slider').slick({
   slidesToScroll: 1,
   autoplay: true,
   autoplaySpeed: 2000,
+  responsive: [
+    {
+      breakpoint: 980,
+      settings: {
+        slidesToShow: 3,
+      }
+    },
+    {
+      breakpoint: 750,
+      settings: {
+        slidesToShow: 2,
+      }
+    },
+    {
+      breakpoint: 650,
+      settings: {
+        slidesToShow: 1,
+      }
+    },
+  ]
 });
 
 

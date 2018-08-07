@@ -36,9 +36,11 @@
 
 @import "parteils/_bread-crumbs";
 
-/*Bread Crumbs*/
+/*Bread Btns*/
 
 @import "parteils/_btns";
+
+@import "parteils/_btn-toggle";
 
 /*Big-set*/
 
@@ -319,6 +321,13 @@
 
 @import "parteils/_promo-code";
 
+@import "parteils/_promo-usage";
+
+@import "parteils/_promo-cards&coups";
+
+@import "parteils/_coupser";
+@import "parteils/_promo-shop";
+
 /*---------------PROMO CATALOG PAGE-----------------*/
 
 @import "parteils/_promo-catalog";
@@ -341,7 +350,6 @@
 
 /*  -------------------------------- */
 
-@import "parteils/_btn-toggle";
-@import "parteils/_coupser";
-@import "parteils/_promo-shop";
-@import "parteils/snpk_coups";
+
+
+
