@@ -9,7 +9,7 @@
 			<div class="cms-content">
 
 				<h2>Присланные акции</h2>
-
+        
 				<div class="cms-stock-send">
 
 					<div class="cms-stock-send__content">
@@ -20,8 +20,6 @@
 									<td>Дата</td>
 									<td>Имя</td>
 									<td>Email</td>
-									<td>Магазин</td>
-									<td>Скидка</td>
 									<td>Ссылка</td>
 									<td>Просмотрено</td>
 								</tr>
@@ -31,8 +29,6 @@
 									<td>01.01.2017 12:00</td>
 									<td>Василий</td>
 									<td>mail@mail.ru</td>
-									<td>Балтика Мебель</td>
-									<td>5%</td>
 									<td><a href="https://baltikamebel.ru/promo">https://baltikamebel.ru/promo</a></td>
 									<td>
 										<div class="cms-btn--check">
@@ -50,8 +46,6 @@
 									<td>01.01.2017 12:00</td>
 									<td>Николай</td>
 									<td>mail@mail.ru</td>
-									<td>Аквилон</td>
-									<td>5%</td>
 									<td><a href="https://akvilon.online/promo">https://akvilon.online/promo</a></td>
 									<td>
 										<div class="cms-btn--check">
@@ -69,8 +63,6 @@
 									<td>01.01.2017 12:00</td>
 									<td>Андрей</td>
 									<td>mail@mail.ru</td>
-									<td>Мебель Сити</td>
-									<td>5%</td>
 									<td><a href="http://www.mebelcity.ru/">http://www.mebelcity.ru/</a></td>
 									<td>
 										<div class="cms-btn--check">
@@ -89,8 +81,6 @@
 									<td>01.01.2017 12:00</td>
 									<td>Василий</td>
 									<td>mail@mail.ru</td>
-									<td>Балтика Мебель</td>
-									<td>5%</td>
 									<td><a href="https://baltikamebel.ru/promo">https://baltikamebel.ru/promo</a></td>
 									<td>
 										<div class="cms-btn--check">
@@ -108,8 +98,6 @@
 									<td>01.01.2017 12:00</td>
 									<td>Николай</td>
 									<td>mail@mail.ru</td>
-									<td>Аквилон</td>
-									<td>5%</td>
 									<td><a href="https://akvilon.online/promo">https://akvilon.online/promo</a></td>
 									<td>
 										<div class="cms-btn--check">
@@ -127,8 +115,6 @@
 									<td>01.01.2017 12:00</td>
 									<td>Андрей</td>
 									<td>mail@mail.ru</td>
-									<td>Мебель Сити</td>
-									<td>5%</td>
 									<td><a href="http://www.mebelcity.ru/">http://www.mebelcity.ru/</a></td>
 									<td>
 										<div class="cms-btn--check">
