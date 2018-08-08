@@ -1386,16 +1386,18 @@
 					           <!-- <a href="#" class="discount__link">
 					             Как это работает?
 					           </a> -->
-					           <button type="button" class="filter-list_btn cta-btn__full" data-toggle="modal" data-target="#exampleModalCenter">
+					           <button type="button" class="discount-btn" data-toggle="modal" data-target="#exampleModalCenter">
 					             Разместить промокод
 					           </button>
 					         </ul>
 					      </div>
 					      </nav>
 					</div>
-					
 					<div class="promo-card__shops promo-card__shops_left">
-					  <h2 class="promo-card__shops-caption d-flex align-items-center">Магазины<a href="#">Смотреть все</a></h2>
+					  <div class="promo-title__wrap d-flex">
+					    <h2 class="promo-card__shops-caption">Магазины</h2>
+					    <a class="promo-title__wrap_link" href="#">Смотреть все</a> 
+					  </div>
 					  <div class="row">
 					    <div class="col-md-6 col-6">
 					      <a href="#" class="cards__item cards__item-left">
@@ -1803,7 +1805,10 @@
 	<section>
 	  <div class="container">
 	    <div class="promo-card__shops">
-	      <h2 class="promo-card__shops-caption d-flex align-items-center">Промо коды от популярных магазинов <a href="#">Смотреть все</a></h2>
+	      <div class="promo-title__wrap d-flex">
+	        <h2 class="promo-card__shops-caption">Магазины</h2>
+	        <a class="promo-title__wrap_link" href="#">Смотреть все</a> 
+	      </div>
 	      <div class="row">
 	        <div class="col-md-2 col-6">
 	          <a href="#" class="cards__item">
@@ -1986,21 +1991,22 @@
 	<div class="discount-modal modal fade" id="exampleModalCenter" tabindex="-1" role="dialog" aria-labelledby="exampleModalCenterTitle" aria-hidden="true">
 	  <div class="modal-dialog modal-dialog-centered" role="document">
 	    <div class="modal-content discount-modal__content">
+	    	<button type="button" class="modal-window__button-close close" data-dismiss="modal" aria-label="Close"></button>
 
 			<div class="discount-modal__header">
 				<h2 class="discount-modal__caption">Нашли акцию?</h2>
-				<p class="discount-modal__desc">Вы хотите добавить свой промокод на наш раздел? Сообщите нашей команде о скидке, заполнив форму ниже </p>
+				<p class="discount-modal__desc">Вы хотите добавить свой промокод на наш раздел? Сообщите нашей команде о скидке, заполнив форму ниже.</p>
 			</div>
 
 			<form action="" class="discount-modal__form">
 				<div class="discount-modal__block">
-					<input class="discount-modal__input" type="text" placeholder="Имя">
+					<input class="discount-modal__input" required="" type="text" placeholder="Имя:">
 				</div>
 				<div class="discount-modal__block">
-					<input class="discount-modal__input" type="email" placeholder="E-mail">
+					<input class="discount-modal__input" required="" type="email" placeholder="E-mail:">
 				</div>
 				<div class="discount-modal__block">
-					<input class="discount-modal__input" type="text" placeholder="Ссылка на акцию">
+					<input class="discount-modal__input" required="" type="text" placeholder="Ссылка на акцию:">
 				</div>
 				<button class="discount-modal__btn cta-btn__full">Отправить</button>
 			</form>

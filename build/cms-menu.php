@@ -46,6 +46,9 @@
 			<li><a class="cms-menu__link" href="/cms-stock--category.php">04.1 Категории</a></li>
 			<li><a class="cms-menu__link" href="/cms-stock--promo.php">04.2 Промо коды</a></li>
 			<li><a class="cms-menu__link" href="/cms-stock--send.php">04.3 Новые акции</a></li>
+			<li><a class="cms-menu__link" href="/cms-stock--manuf.php">04.4 Фабрики</a></li>
+			<li><a class="cms-menu__link" href="/cms-stock--promo-edit.php">04.5 Редактировать промокод</a></li>
+			<li><a class="cms-menu__link" href="/cms-stock--manuf-edit.php">04.6 Редактировать фабрику</a></li>
 		</ul>
 	</div>
 

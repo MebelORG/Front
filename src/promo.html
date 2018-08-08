@@ -61,6 +61,54 @@
 			<div class="row">
 				<div class="col-lg-3">
 					//= template/promo-filter.html
+					<div class="promo-card__shops promo-card__shops_left">
+					  <div class="promo-title__wrap d-flex">
+					    <h2 class="promo-card__shops-caption">Магазины</h2>
+					    <a class="promo-title__wrap_link" href="#">Смотреть все</a> 
+					  </div>
+					  <div class="row">
+					    <div class="col-md-6 col-6">
+					      <a href="#" class="cards__item cards__item-left">
+					        <div class="cards__img-left d-flex align-items-center justify-content-center">
+					          <img src="/img/1.png" alt="">
+					        </div>
+					        <div class="cards__pre-offers">
+					          <span href="#" class="cards__offers">36 предложений</span>
+					        </div>
+					      </a>
+					    </div>
+					    <div class="col-md-6 col-6">
+					      <a href="#" class="cards__item cards__item-left">
+					        <div class="cards__img-left d-flex align-items-center justify-content-center">
+					          <img src="/img/1.png" alt="">
+					        </div>
+					        <div class="cards__pre-offers">
+					          <span href="#" class="cards__offers">36 предложений</span>
+					        </div>
+					      </a>
+					    </div>
+					    <div class="col-md-6 col-6">
+					      <a href="#" class="cards__item cards__item-left">
+					        <div class="cards__img-left d-flex align-items-center justify-content-center">
+					          <img src="/img/1.png" alt="">
+					        </div>
+					        <div class="cards__pre-offers">
+					          <span href="#" class="cards__offers">36 предложений</span>
+					        </div>
+					      </a>
+					    </div>
+					    <div class="col-md-6 col-6">
+					      <a href="#" class="cards__item cards__item-left">
+					        <div class="cards__img-left d-flex align-items-center justify-content-center">
+					          <img src="/img/1.png" alt="">
+					        </div>
+					        <div class="cards__pre-offers">
+					          <span href="#" class="cards__offers">36 предложений</span>
+					        </div>
+					      </a>
+					    </div>
+					  </div>
+					</div>
 				</div>
 				<div class="col-lg-9">
 
@@ -122,21 +170,22 @@
 	<div class="discount-modal modal fade" id="exampleModalCenter" tabindex="-1" role="dialog" aria-labelledby="exampleModalCenterTitle" aria-hidden="true">
 	  <div class="modal-dialog modal-dialog-centered" role="document">
 	    <div class="modal-content discount-modal__content">
+	    	<button type="button" class="modal-window__button-close close" data-dismiss="modal" aria-label="Close"></button>
 
 			<div class="discount-modal__header">
 				<h2 class="discount-modal__caption">Нашли акцию?</h2>
-				<p class="discount-modal__desc">Вы хотите добавить свой промокод на наш раздел? Сообщите нашей команде о скидке, заполнив форму ниже </p>
+				<p class="discount-modal__desc">Вы хотите добавить свой промокод на наш раздел? Сообщите нашей команде о скидке, заполнив форму ниже.</p>
 			</div>
 
 			<form action="" class="discount-modal__form">
 				<div class="discount-modal__block">
-					<input class="discount-modal__input" type="text" placeholder="Имя">
+					<input class="discount-modal__input" required="" type="text" placeholder="Имя:">
 				</div>
 				<div class="discount-modal__block">
-					<input class="discount-modal__input" type="email" placeholder="E-mail">
+					<input class="discount-modal__input" required="" type="email" placeholder="E-mail:">
 				</div>
 				<div class="discount-modal__block">
-					<input class="discount-modal__input" type="text" placeholder="Ссылка на акцию">
+					<input class="discount-modal__input" required="" type="text" placeholder="Ссылка на акцию:">
 				</div>
 				<button class="discount-modal__btn cta-btn__full">Отправить</button>
 			</form>

@@ -161,7 +161,33 @@
 
 	//= template/promo-usage.html
 
-	
+	<!-- Modal Promo -->
+	<div class="discount-modal modal fade" id="exampleModalCenter" tabindex="-1" role="dialog" aria-labelledby="exampleModalCenterTitle" aria-hidden="true">
+	  <div class="modal-dialog modal-dialog-centered" role="document">
+	    <div class="modal-content discount-modal__content">
+	    	<button type="button" class="modal-window__button-close close" data-dismiss="modal" aria-label="Close"></button>
+
+			<div class="discount-modal__header">
+				<h2 class="discount-modal__caption">Нашли акцию?</h2>
+				<p class="discount-modal__desc">Вы хотите добавить свой промокод на наш раздел? Сообщите нашей команде о скидке, заполнив форму ниже.</p>
+			</div>
+
+			<form action="" class="discount-modal__form">
+				<div class="discount-modal__block">
+					<input class="discount-modal__input" required="" type="text" placeholder="Имя:">
+				</div>
+				<div class="discount-modal__block">
+					<input class="discount-modal__input" required="" type="email" placeholder="E-mail:">
+				</div>
+				<div class="discount-modal__block">
+					<input class="discount-modal__input" required="" type="text" placeholder="Ссылка на акцию:">
+				</div>
+				<button class="discount-modal__btn cta-btn__full">Отправить</button>
+			</form>
+	    </div>
+	  </div>
+	</div>
+	<!-- Modal Promo End -->
 
 		
 //= template/footer.html
