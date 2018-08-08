@@ -17,6 +17,7 @@
 
 //= partials/old/script-2.js
 
+//= partials/_promo-copy.js
 
 $(document).ready(function(){
 

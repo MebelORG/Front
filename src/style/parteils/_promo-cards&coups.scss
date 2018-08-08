@@ -82,7 +82,7 @@ $grey_4:#333;
     .label{
       display: inline-block;
     }
-    .code{
+    .code, .copy{
       display: none;
     }
     &:hover{
@@ -93,11 +93,39 @@ $grey_4:#333;
       color: #333;
       color: $green;
       border: 2px dashed $green;
+      position: relative;
       .label{
         display: none;
       }
-      .code{
+      .code,.copy{
         display: inline-block;
+      }
+      .code{
+        text-align: center;
+        color: #14af69;
+      }
+      .copy{
+        height: 16px;
+        width: 12px;
+        top: 7px;
+        right: 15px;
+        float: right;
+        position: absolute;
+        bottom: 15px;
+        .hint--top{
+          width: 100%;
+        }
+        img{}
+      }
+    }
+  }
+  &_btn-promo{
+    .copy{
+      opacity: 0;
+    }
+    &:hover{
+      .copy{
+        opacity: 1;
       }
     }
   }
@@ -116,6 +144,10 @@ $grey_4:#333;
       color: #333;
       margin-left: 10px;
     }
+  }
+  &_stock{
+    color: #666;
+    margin-bottom: 20px;
   }
   &_item{
     border-bottom: 0;
@@ -382,6 +414,8 @@ $grey_4:#333;
       }
       .code{
         display: inline-block;
+        text-align: center;
+        color: #14af69;
       }
     }
   }
