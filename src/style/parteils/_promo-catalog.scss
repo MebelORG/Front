@@ -1,6 +1,5 @@
 
 .promo-catalog{
-  padding: 2em 0;
   &__filter_fix {
     position: fixed;
     padding: 2em 0;
@@ -31,10 +30,6 @@
     color: #666;
     padding: 5px 10px;
     margin: 5px 0;
-    &.disable {
-      pointer-events: none;
-      opacity: .5;
-    }
     &.active{
       background-color: #eee !important;
       color: #333 !important;
@@ -67,7 +62,6 @@
       color: #333;
       &:hover{
         color: #333;
-        text-decoration: underline;
       }
     }
     &-addition{
