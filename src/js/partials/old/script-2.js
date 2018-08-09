@@ -1002,17 +1002,6 @@ $(".cms-modal__search input").keypress(function() {
 //
 // });
 
-$( function() {
-  $( ".sortable" ).sortable();
-  $( ".sortable" ).disableSelection();
-} );
-
-
-$( function() {
-   $( "#sortable1, #sortable2, #sortable3, #sortable4" ).sortable({
-     connectWith: ".connectedSortable"
-   }).disableSelection();
- } );
 
 
 
