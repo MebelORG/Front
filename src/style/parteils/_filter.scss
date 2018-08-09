@@ -30,6 +30,10 @@
     cursor: pointer;
   }
 
+  &__name {
+    max-width: 230px;
+  }
+
   &__num {
     font-size: 11px;
     line-height: 13px;
