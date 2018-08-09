@@ -118,16 +118,19 @@ gulp.task('fonts:build', function() {
 });
 
 gulp.task('build', [
+    'image:build',
     'html:build',
     'php:build',
     'js:build',
     'style:build',
-    'fonts:build',
-    'image:build'
+    'fonts:build'
 ]);
 
 
 gulp.task('watch', function(){
+    watch([path.watch.img], function(event, cb) {
+        gulp.start('image:build');
+    });
     watch([path.watch.html], function(event, cb) {
         gulp.start('html:build');
     });
@@ -139,9 +142,6 @@ gulp.task('watch', function(){
     });
     watch([path.watch.js], function(event, cb) {
         gulp.start('js:build');
-    });
-    watch([path.watch.img], function(event, cb) {
-        gulp.start('image:build');
     });
     watch([path.watch.fonts], function(event, cb) {
         gulp.start('fonts:build');
