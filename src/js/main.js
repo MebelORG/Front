@@ -1,3 +1,4 @@
+//= partials/_manufactures.js
 
 //= partials/old/dropzone.min.js
 
@@ -20,7 +21,6 @@
 //= partials/_promo-copy.js
 
 //= partials/promo-modal.js
-
 
 $(document).ready(function(){
 
