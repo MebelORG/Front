@@ -1,5 +1,3 @@
-//= partials/_manufactures.js
-
 //= partials/old/dropzone.min.js
 
 //= partials/old/foundation.min.js
@@ -21,6 +19,10 @@
 //= partials/_promo-copy.js
 
 //= partials/promo-modal.js
+
+//= partials/_manufactures.js
+
+//= partials/_recomendation-goods.js
 
 $(document).ready(function(){
 
