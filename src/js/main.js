@@ -18,11 +18,15 @@
 
 //= partials/_promo-copy.js
 
-//= partials/promo-modal.js
+//= partials/_promo-modal.js
 
 //= partials/_manufactures.js
 
 //= partials/_recomendation-goods.js
+
+//= partials/parallax.min.js
+
+//= partials/_blog.js
 
 $(document).ready(function(){
 
