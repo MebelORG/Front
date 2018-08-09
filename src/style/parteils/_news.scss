@@ -1,3 +1,9 @@
+
+#news-header {
+	background: #fcfcfc;
+	padding-bottom: 40px;
+}
+
 #news {
 	padding-bottom: 60px;
 }
@@ -5,43 +11,88 @@
 .news{
 	position: relative;
 	cursor: pointer;
+	transition: 0.3s ease;
+	margin: 0 0 20px;
+	overflow:hidden;
+	border-radius: 3px;
+	&-title {
+		font-size: 50px;
+		line-height: auto;
+	}
 	&-menu {
-		margin: 20px 0;
+		margin: 48px 0 14px;
 		&__item {
 			margin-right: 20px;
 			&_link {
 				color: #333;
-				font-size: 18px;
-				transition:0.3s ease;
+				transition: 0.3s ease;
 				&:hover {
-					transition:0.3s ease;
-					color: #f90;
-				}
-				&-active {
-					color: #f90;
+					color: #999;
+					transition: 0.3s ease;
 				}
 			}
 		}
 	}
+	&:hover .news__title_big, &:hover .news__title_small {
+		color: #eaeaea;
+		transition: 0.3s ease;
+	}
+	&:hover .news__info{
+		opacity: 0.75;
+		transition: 0.3s ease;
+	}
+
+	&:hover .news__wrap_big{
+		left: 25px;
+		bottom: 17px;
+		transition: 0.3s ease;
+	}
+
+	&:hover .news__title_big {
+		margin-bottom: 11px;
+	}
+
+	&:hover .news__wrap_small{
+		left: 20px;
+		bottom: 17px;
+		transition: 0.3s ease;
+	}
+
 	&-big-title {
 		font-size: 30px;
 		font-weight: 700;
-		margin: 70px 0 20px;
+		margin: 70px 0 30px;
+		color: #333;
+		&__link {
+			color: #333;
+			&:hover {
+				text-decoration: underline;
+				color: #333;
+			}
+		}
 	}
-	&:hover .news__title_big, &:hover .news__title_small {
-		text-decoration: underline;
-	}
+
 	img{
-		width: 100%;
 		border-radius: 3px;
-		margin: 10px 0;
 	}
+	&__small, &__long{
+		height: 316px;
+	} 
+
+	&__average{
+		height: 260px;
+	}
+
+	&__big{
+		height: 540px;
+	}
+
 	&__label{
 		position: absolute;
-		top: 10px;
-		left: 0px;
+		top: 0;
+		left: 0;
 		color: #FFFFFF;
-		background: #3E3E3E;
+		background: #f90;
 		text-align: center;
 		border-radius: 3px 0px;
 		width: 83px;
@@ -53,7 +104,6 @@
 	}
 	&__label:hover{
 		color: #FFFFFF;
-		text-decoration: underline;
 		transition: 0.3s ease;
 	}
 
@@ -64,29 +114,33 @@
 	}
 	&__wrap_big{
 		left: 25px;
-		bottom: 35px;
+		bottom: -5px;
 	}
 	&__wrap_small{
 		left: 20px;
-		bottom: 30px;
+		bottom: -10px;
 	}
 
 	&__title_big{
 		font-size: 24px;
 		line-height: 30px;
-		margin-bottom: 15px;
+		margin-bottom: 3px;
 	}
 
 	&__title_small{
 		font-size: 18px;
 		line-height: 25px;
-		margin-bottom: 15px;
+		margin-bottom: 8px;
 
 	}
 	&__info{
 		display: flex;
 		font-size: 14px;
 		line-height: 16px;
+		opacity: 0;
+		& img {
+			margin-top: -2px;
+		}
 	}
 
 	&__views, &__rating{
@@ -98,8 +152,6 @@
 	&__views_val, &__rating_val{
 		margin-right: 5px;
 	}
-	&-pangination {
-		margin-top: 40px;
-	}
+
 }
 
