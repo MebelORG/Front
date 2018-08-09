@@ -19,6 +19,9 @@
 
 //= partials/_promo-copy.js
 
+//= partials/promo-modal.js
+
+
 $(document).ready(function(){
 
 });

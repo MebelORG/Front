@@ -1275,7 +1275,7 @@
 					          Фильтрация <img src="img/btn-arrow.svg">
 					        </button>
 					        <div class="navbar-collapse collapse promo-catalog__filter_navbar" id="navbarSupportedContent" style="">
-					         <ul class="navbar-nav mr-auto" style="display:block;">
+					         <ul class="navbar-nav mr-auto promo-nav">
 					           <h2 class="discount-category__caption">Категории</h2>
 					           <div class="discount-category">
 					
@@ -1993,6 +1993,13 @@
 	    <div class="modal-content discount-modal__content">
 	    	<button type="button" class="modal-window__button-close close" data-dismiss="modal" aria-label="Close"></button>
 
+	    	<div class="discount-modal__confirm">
+				<div class="discount-modal__confirm-text">
+					<h2 class="discount-modal__caption">Спасибо!</h2>
+					<p class="discount-modal__desc">Ваша акция отправлена!</p>
+				</div>
+			</div>
+
 			<div class="discount-modal__header">
 				<h2 class="discount-modal__caption">Нашли акцию?</h2>
 				<p class="discount-modal__desc">Вы хотите добавить свой промокод на наш раздел? Сообщите нашей команде о скидке, заполнив форму ниже.</p>
@@ -2000,15 +2007,15 @@
 
 			<form action="" class="discount-modal__form">
 				<div class="discount-modal__block">
-					<input class="discount-modal__input" required="" type="text" placeholder="Имя:">
+					<input class="discount-modal__input discount-modal__input-name" required="" type="text" placeholder="Имя:">
 				</div>
 				<div class="discount-modal__block">
-					<input class="discount-modal__input" required="" type="email" placeholder="E-mail:">
+					<input class="discount-modal__input discount-modal__input-email" required="" type="email" placeholder="E-mail:">
 				</div>
 				<div class="discount-modal__block">
-					<input class="discount-modal__input" required="" type="text" placeholder="Ссылка на акцию:">
+					<input class="discount-modal__input discount-modal__input-link" required="" type="text" placeholder="Ссылка на акцию:">
 				</div>
-				<button class="discount-modal__btn cta-btn__full">Отправить</button>
+				<button class="discount-modal__btn cta-btn__full btn-blocked" type="button" disabled>Отправить</button>
 			</form>
 	    </div>
 	  </div>
