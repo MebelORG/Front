@@ -1,10 +1,10 @@
-h2{
+/*h2{
 	font-weight: bold;
 	font-size: 28px;
 	line-height: 33px;
 	color: #333333;
 	margin: 0;
-}
+}*/
 
 .main-link{
 	font-size: 18px;
@@ -125,7 +125,7 @@ h2{
 			color: #999999;
 			background-color: white;
 			border-bottom: 3px #CCCCCC solid;
-			border-radius: 0px;	
+			border-radius: 0px;
 		}
 	}
 	&__info{
@@ -222,7 +222,7 @@ h2{
 		left: 28px;
 		display: flex;
 		input{
-			
+
 		}
 		button{
 			width: 120px;
@@ -279,7 +279,7 @@ h2{
 	    width: 192px;
 	    padding: 5px;
 	    margin: 2px 0 0;
-	    cursor: pointer;		
+	    cursor: pointer;
 	}
 }
 .my-class{
@@ -297,5 +297,3 @@ h2{
 		}
 	}
 }
-
-
