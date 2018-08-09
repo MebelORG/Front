@@ -1,0 +1,32 @@
+.same-articles{
+  background: #f7f7f7;
+  &__item{
+    margin: 40px 0;
+  }
+  &__title{
+    font-size: 28px;
+    font-weight: 700;
+    margin-top: 15px;
+    line-height: 34px;
+  }
+  &__text{
+    color: #666;
+  }
+  &__img{
+    height: 100%;
+    background-size: cover;
+    background-position: center;
+    border-radius: 3px;
+    overflow: hidden;
+  }
+  &__description{
+    margin-top: 15px;
+    margin-bottom: 15px;
+    * {
+      margin-right: 10px;
+    }
+  }
+  img{
+    max-width: 100%;
+  }
+}
