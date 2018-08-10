@@ -24,9 +24,7 @@
 
 //= partials/_recomendation-goods.js
 
-//= partials/parallax.min.js
 
-//= partials/_blog.js
 
 $(document).ready(function(){
 
