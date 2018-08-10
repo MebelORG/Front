@@ -24,6 +24,8 @@
 
 //= partials/_recomendation-goods.js
 
+//= partials/_same-articles.js
+
 
 
 $(document).ready(function(){

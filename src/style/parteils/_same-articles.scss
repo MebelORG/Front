@@ -53,9 +53,11 @@
 }
 
 .same-articles-after{
+  background: #f7f7f7;
+  padding: 3em 0;
+  margin-bottom: -30px;
   &__item{
     display: block;
-    margin: 40px 0;
     opacity: .7;
     &:hover{
       opacity: 1;
@@ -72,12 +74,17 @@
       margin-right: 10px;
     }
   }
-  &__title{
-    font-size: 28px;
+  &__title-slide{
+    font-size: 1.2em;
     font-weight: 700;
     margin-top: 15px;
-    line-height: 34px;
+    line-height: 1.4em;
     color: #333;
+  }
+  &__title{
+    font-size: 1.8em;
+    margin-top: 0;
+    font-weight: bold;
   }
   &__img{
     height: 15em;
@@ -85,5 +92,8 @@
     background-position: center;
     border-radius: 3px;
     overflow: hidden;
+  }
+  &__slide{
+    padding: 10px;
   }
 }
