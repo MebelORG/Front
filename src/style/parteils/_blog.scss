@@ -12,6 +12,20 @@
   .bread__link_active{
     opacity: 1;
   }
+  &__date, &__time{
+    position: relative;
+    &:before{
+      content: '';
+      display: block;
+      width: 5px;
+      height: 5px;
+      border-radius: 55px;
+      background: #fff;
+      left: -17px;
+      top: 8px;
+      position: absolute;
+    }
+  }
   &__background{
     min-height: 400px;
     background: transparent;
@@ -209,7 +223,7 @@
     display: flex;
     align-items: center;
     *{
-      margin-right: 20px;
+      margin-right: 30px;
     }
   }
   &__img{
