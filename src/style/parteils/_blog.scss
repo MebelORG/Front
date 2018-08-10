@@ -1,3 +1,6 @@
+*{
+  outline: none;
+}
 .article{
   .bread__link{
     color: #fff;
@@ -195,9 +198,9 @@
       color: #333;
       border-radius: 10em;
       border: 1px solid #333;
-      border-color: #f3b26b;
+      border-color: #f90;
       border-width: 2px;
-      color: #f3b26b;
+      color: #f90;
       opacity: 1;
       margin-bottom: 10px;
       font-size: 18px;
@@ -243,7 +246,7 @@
   &__underground {
     padding: 30px 0;
     &-stars {
-      color: #f3b26b;
+      color: #f90;
       font-size: 16px;
       text-align: right;
       *{
@@ -254,14 +257,14 @@
       a{
         font-size: 16px;
         padding: .2em 1em;
-        background: #f7f7f7;
+        border: #666 1px solid;
         color: #666;
         border-radius: 100px;
         margin-right: 10px;
         display: inline-block;
         text-decoration: none;
         &:hover{
-          background: #eaeaea;
+          border-color: #333;
           color: #333;
           opacity: 1;
         }
@@ -278,7 +281,7 @@
   .article{
     &__title{
       max-width: 100%;
-      font-size: 2em;
+      font-size: 2.5em;
       line-height: 1.2em;
       padding: 0;
       border: 0;
@@ -338,7 +341,7 @@
       display: block;
     }
     &__author,&__time,&__date{
-      width: 100%;
+      //width: 100%;
       margin-bottom: 10px;
       display: inline-block;
     }
