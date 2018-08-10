@@ -2,7 +2,7 @@ $(document).ready(function(){
   $('.same-articles-after__slider').slick({
   //centerMode: true,
   //centerPadding: '60px',
-  slidesToShow: 5,
+  slidesToShow: 6,
   infinite: true,
   slidesToScroll: 1,
   responsive: [
