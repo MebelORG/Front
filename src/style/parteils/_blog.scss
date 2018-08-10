@@ -294,6 +294,21 @@
       &-img-left, &-img-right {
         max-width: calc(30% + 50px);
       }
+      &-img-left{
+        margin-left: -10px;
+      }
+      &-img-right{
+        margin-right: -10px;
+      }
+      &-img-big{
+        margin: 10px -10px;
+      }
+      &-img-group{
+        margin: 10px -30px;
+      }
+      &-quote{
+        margin: 20px -10px;
+      }
       h2{
         font-size: 2em;
       }
