@@ -39,3 +39,12 @@
     }
   }
 }
+
+@include media-breakpoint-down(md) {
+  .recomendation-goods{
+    &__title {
+      font-size: 2em;
+      line-height: 1.2em;
+    }
+  }
+}

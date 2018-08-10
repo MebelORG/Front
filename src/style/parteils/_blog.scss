@@ -238,6 +238,7 @@
     border-radius: 10em;
     background: #fff;
     margin-right: 10px;
+    display: inline-block;
   }
   &__underground {
     padding: 30px 0;
@@ -267,18 +268,23 @@
       }
     }
   }
+  &__name{
+    margin: 0;
+    height: max-content;
+  }
 }
 
 @include media-breakpoint-down(md) {
   .article{
     &__title{
       max-width: 100%;
-      font-size: 3em;
+      font-size: 2em;
       line-height: 1.2em;
       padding: 0;
       border: 0;
     }
     &__content{
+      font-size: 16px;
       &-text{
         font-size: 16px;
       }
@@ -288,6 +294,21 @@
       &-img-left, &-img-right {
         max-width: calc(30% + 50px);
       }
+      h2{
+        font-size: 2em;
+      }
+      h3{
+        font-size: 1.9em;
+      }
+      h4{
+        font-size: 1.8em;
+      }
+      h5{
+        font-size: 1.7em;
+      }
+      h6{
+        font-size: 1.6em;
+      }
     }
     &__category{
       padding: 0;
@@ -296,6 +317,19 @@
       &-stars {
         text-align: left;
         margin-top: 20px;
+      }
+    }
+    &__description {
+      display: block;
+    }
+    &__author,&__time,&__date{
+      width: 100%;
+      margin-bottom: 10px;
+      display: inline-block;
+    }
+    &__date, &__time{
+      &:before{
+        display: none;
       }
     }
   }
