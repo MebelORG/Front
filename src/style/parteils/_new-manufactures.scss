@@ -1,10 +1,10 @@
-/*h2{
+.company-title-section {
 	font-weight: bold;
 	font-size: 28px;
 	line-height: 33px;
 	color: #333333;
 	margin: 0;
-}*/
+}
 
 .main-link{
 	font-size: 18px;
@@ -44,6 +44,7 @@
 	&__info{
 		display: flex;
 		justify-content: center;
+		flex-wrap: wrap;
 		margin-top: 16px;
 	}
 	&__rating, &__segment, &__price, &__availability{
@@ -62,6 +63,7 @@
 	margin-top: 100px;
 }
 .company-about-main-info{
+	margin-bottom: 10px;
 	h1{
 		font-weight: bold;
 		font-size: 30px;
@@ -150,11 +152,13 @@
 
 .company-popular{
 	margin-top: 160px;
-	&__header{
-		display: flex;
-		align-items: center;
+	&__header{;
+		h2{
+			display: inline;
+		}
 		a{
 			margin-left: 20px;
+			word-wrap: normal;
 		}
 	}
 }
@@ -162,8 +166,9 @@
 .company-promocode{
 	margin-top: 150px;
 	&__header{
-		display: flex;
-		align-items: center;
+		h2{
+			display: inline;
+		}
 		a{
 			margin-left: 20px;
 		}
@@ -173,8 +178,9 @@
 .company-catalog{
 	margin-top: 100px;
 	&__header{
-		display: flex;
-		align-items: center;
+		h2{
+			display: inline;
+		}
 		a{
 			margin-left: 20px;
 		}
@@ -214,7 +220,7 @@
 	}
 	&__map-google{
 		width: 100%;
-	height: 500px;
+		height: 500px;
 	}
 	&__find-adress{
 		position: absolute;
@@ -296,4 +302,10 @@
 			width: 100%;
 		}
 	}
+}
+
+
+
+@include media-breakpoint-down(md) {
+  
 }
