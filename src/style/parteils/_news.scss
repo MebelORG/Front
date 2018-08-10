@@ -1,7 +1,22 @@
 
 #news-header {
-	background: #fcfcfc;
-	padding-bottom: 40px;
+	padding-bottom: 80px;
+	.article__category {
+		margin: 150px 0 18px;
+	}
+	.bread__link {
+		color: #fff;
+   		opacity: .5;
+		&:hover {
+			opacity: 1;
+		}
+		&:after {
+		    background: #fff;
+		}
+		&_active {
+			opacity: 1;
+		}
+	}
 }
 
 #news {
@@ -14,12 +29,43 @@
 	transition: 0.3s ease;
 	margin: 0 0 20px;
 	overflow:hidden;
+	background-blend-mode: overlay;
 	border-radius: 3px;
-	&-title {
-		font-size: 50px;
-		line-height: auto;
+	background-color: #333;
+	&-main {
+		background: url(../img/blog-newsbg.jpg) no-repeat center top/cover;
 	}
-	&-menu {
+	&-advice {
+		background: url(../img/advicebg.jpg) no-repeat center top/cover;
+	}
+	&-promo {
+		background: url(../img/news-promobg.jpg) no-repeat center top/cover;
+	}
+	&-news {
+		background: url(../img/news-newsbg.jpg) no-repeat center top/cover;
+	}
+	&-watch {
+		background: url(../img/news-videobg.jpg) no-repeat center top/cover;
+	}
+	&-other {
+		padding-top: 80px;
+	}
+	&-title {
+		font-size: 110px;
+		line-height: auto;
+		color: #fff;
+		line-height: 79px;
+		padding-left: 20px;
+    	border-left: 5px solid;
+    	&-other {
+    		font-size: 60px;
+    		color: #fff;
+    		padding-left: 20px;
+    		border-left: 5px solid;
+    		line-height: 45px;
+    	}
+	}
+	/*&-menu {
 		margin: 48px 0 14px;
 		&__item {
 			margin-right: 20px;
@@ -32,7 +78,7 @@
 				}
 			}
 		}
-	}
+	}*/
 	&:hover .news__title_big, &:hover .news__title_small {
 		color: #eaeaea;
 		transition: 0.3s ease;
@@ -72,7 +118,7 @@
 		}
 	}
 
-	img{
+	&__img {
 		border-radius: 3px;
 	}
 	&__small, &__long{
@@ -92,12 +138,14 @@
 		top: 0;
 		left: 0;
 		color: #FFFFFF;
-		background: #f90;
+		background: rgba(0,0,0,0.5);
 		text-align: center;
 		border-radius: 3px 0px;
 		width: 83px;
 		height: 28px;
-		font-size: 14px;
+		font-size: 12px;
+		text-transform: uppercase;
+		font-weight: 700;
 		line-height: 16px;
 		padding: 6px 15px;
 		transition: 0.3s ease; 
@@ -151,6 +199,9 @@
 
 	&__views_val, &__rating_val{
 		margin-right: 5px;
+	}
+	&-pangination {
+		margin-top: 20px;
 	}
 
 }
