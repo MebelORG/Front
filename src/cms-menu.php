@@ -5,105 +5,105 @@
 	</div>
 
 	<div class="cms-menu__item">
-		<a class="cms-menu__link cms-menu__link--active" href="/cms-main.php">00 Dashboard</a>
+		<a class="cms-menu__link cms-menu__link--active" href="/cms-main.php">C 00 Dashboard</a>
 	</div>
 
 
 	<div class="cms-menu__item">
-		<a class="cms-menu__link" href="#collapse1" data-toggle="collapse" aria-expanded="true">01 Главная</a>
+		<a class="cms-menu__link" href="#collapse1" data-toggle="collapse" aria-expanded="true">C 01 Главная</a>
 		<ul id="collapse1" class="cms-menu__submenu collapse in">
-			<li><a class="cms-menu__link" href="/cms-main--popular.php">01.1 Популярные категории</a></li>
-			<li><a class="cms-menu__link" href="/cms-main--product-day.php">01.2 Товар дня</a></li>
-			<li><a class="cms-menu__link" href="/cms-main--recommended.php">01.3 Рекомендуемые</a></li>
-			<li><a class="cms-menu__link" href="/cms-main--sets.php">01.4 Готовые комплекты</a></li>
-			<li><a class="cms-menu__link" href="/cms-main--interesting.php">01.5 Интересно</a></li>
-			<li><a class="cms-menu__link" href="/cms-main--sale.php">01.6 Распродажа</a></li>
-			<li><a class="cms-menu__link" href="/cms-main--manuf.php">01.7 Производители</a></li>
-			<li><a class="cms-menu__link" href="/cms-main--about.php">01.8 О нас</a></li>
+			<li><a class="cms-menu__link" href="/cms-main--popular.php">C 01.1 Популярные категории</a></li>
+			<li><a class="cms-menu__link" href="/cms-main--product-day.php">C 01.2 Товар дня</a></li>
+			<li><a class="cms-menu__link" href="/cms-main--recommended.php">C 01.3 Рекомендуемые</a></li>
+			<li><a class="cms-menu__link" href="/cms-main--sets.php">C 01.4 Готовые комплекты</a></li>
+			<li><a class="cms-menu__link" href="/cms-main--interesting.php">C 01.5 Интересно</a></li>
+			<li><a class="cms-menu__link" href="/cms-main--sale.php">C 01.6 Распродажа</a></li>
+			<li><a class="cms-menu__link" href="/cms-main--manuf.php">C 01.7 Производители</a></li>
+			<li><a class="cms-menu__link" href="/cms-main--about.php">C 01.8 О нас</a></li>
 		</ul>
 	</div>
 
 
 	<div class="cms-menu__item">
-		<a class="cms-menu__link" href="#collapse2" data-toggle="collapse" aria-expanded="true">02 Подписки</a>
+		<a class="cms-menu__link" href="#collapse2" data-toggle="collapse" aria-expanded="true">C 02 Подписки</a>
 		<ul id="collapse2" class="cms-menu__submenu collapse in">
-			<li><a class="cms-menu__link" href="/cms-subscribe.php">02.1 Подписка</a></li>
+			<li><a class="cms-menu__link" href="/cms-subscribe.php">C 02.1 Подписка</a></li>
 		</ul>
 	</div>
 
 	<div class="cms-menu__item">
-		<a class="cms-menu__link" href="#collapse3" data-toggle="collapse" aria-expanded="true">03 Подвал</a>
+		<a class="cms-menu__link" href="#collapse3" data-toggle="collapse" aria-expanded="true">C 03 Подвал</a>
 		<ul id="collapse3" class="cms-menu__submenu collapse in">
-			<li><a class="cms-menu__link" href="/cms-footer-menu.php">03.1 Меню</a></li>
-			<li><a class="cms-menu__link" href="/cms-footer-social.php">03.2 Социальные сети</a></li>
-			<li><a class="cms-menu__link" href="/cms-footer-error.php">03.3 Ошибки на сайте</a></li>
+			<li><a class="cms-menu__link" href="/cms-footer-menu.php">C 03.1 Меню</a></li>
+			<li><a class="cms-menu__link" href="/cms-footer-social.php">C 03.2 Социальные сети</a></li>
+			<li><a class="cms-menu__link" href="/cms-footer-error.php">C 03.3 Ошибки на сайте</a></li>
 		</ul>
 	</div>
 
 	<div class="cms-menu__item">
-		<a class="cms-menu__link" href="#collapse4" data-toggle="collapse" aria-expanded="true">04 Акции</a>
+		<a class="cms-menu__link" href="#collapse4" data-toggle="collapse" aria-expanded="true">C 04 Акции</a>
 		<ul id="collapse4" class="cms-menu__submenu collapse in">
-			<li><a class="cms-menu__link" href="/cms-stock--category.php">04.1 Категории</a></li>
-			<li><a class="cms-menu__link" href="/cms-stock--promo.php">04.2 Промо коды</a></li>
-			<li><a class="cms-menu__link" href="/cms-stock--send.php">04.3 Новые акции</a></li>
-			<li><a class="cms-menu__link" href="/cms-stock--manuf.php">04.4 Фабрики</a></li>
-			<li><a class="cms-menu__link" href="/cms-stock--promo-edit.php">04.5 Редактировать промокод</a></li>
-			<li><a class="cms-menu__link" href="/cms-stock--manuf-edit.php">04.6 Редактировать фабрику</a></li>
+			<li><a class="cms-menu__link" href="/cms-stock--category.php">C 04.1 Категории</a></li>
+			<li><a class="cms-menu__link" href="/cms-stock--promo.php">C 04.2 Промо коды</a></li>
+			<li><a class="cms-menu__link" href="/cms-stock--send.php">C 04.3 Новые акции</a></li>
+			<li><a class="cms-menu__link" href="/cms-stock--manuf.php">C 04.4 Фабрики</a></li>
+			<li><a class="cms-menu__link" href="/cms-stock--promo-edit.php">C 04.5 Редактировать промокод</a></li>
+			<li><a class="cms-menu__link" href="/cms-stock--manuf-edit.php">C 04.6 Редактировать фабрику</a></li>
 		</ul>
 	</div>
 
 
 
 	<div class="cms-menu__item">
-		<a class="cms-menu__link" href="#collapse5" data-toggle="collapse" aria-expanded="true">05 Блог</a>
+		<a class="cms-menu__link" href="#collapse5" data-toggle="collapse" aria-expanded="true">C 05 Блог</a>
 		<ul id="collapse5" class="cms-menu__submenu collapse in">
 			<!-- <li><a class="cms-menu__link" href="javascript:void(0);">05.1 Корневая</a></li> -->
-			<li><a class="cms-menu__link" href="/cms-blog--posts.php">05.2 Посты</a></li>
-			<li><a class="cms-menu__link" href="/cms-blog--category.php">05.3 Категории</a></li>
-			<li><a class="cms-menu__link" href="/cms-blog--page-edit.php">05.4 Редактрование страницы</a></li>
+			<li><a class="cms-menu__link" href="/cms-blog--posts.php">C 05.2 Посты</a></li>
+			<li><a class="cms-menu__link" href="/cms-blog--category.php">C 05.3 Категории</a></li>
+			<li><a class="cms-menu__link" href="/cms-blog--page-edit.php">C 05.4 Редактрование страницы</a></li>
 		</ul>
 	</div>
 
 
 
 	<div class="cms-menu__item">
-		<a class="cms-menu__link" href="#collapse6" data-toggle="collapse" aria-expanded="true">06 Статичные страницы</a>
+		<a class="cms-menu__link" href="#collapse6" data-toggle="collapse" aria-expanded="true">C 06 Статичные страницы</a>
 		<ul id="collapse6" class="cms-menu__submenu collapse in">
-			<li><a class="cms-menu__link" href="/cms-pages--rules.php">06.1 Правила портала</a></li>
-			<li><a class="cms-menu__link" href="/cms-pages--protection.php">06.2 Программа защиты покупателей</a></li>
-			<li><a class="cms-menu__link" href="/cms-pages--confidentiality.php">06.3 Политика конфиденциальности</a></li>
+			<li><a class="cms-menu__link" href="/cms-pages--rules.php">C 06.1 Правила портала</a></li>
+			<li><a class="cms-menu__link" href="/cms-pages--protection.php">C 06.2 Программа защиты покупателей</a></li>
+			<li><a class="cms-menu__link" href="/cms-pages--confidentiality.php">C 06.3 Политика конфиденциальности</a></li>
 		</ul>
 	</div>
 
 
 	<div class="cms-menu__item">
-		<a class="cms-menu__link" href="#collapse7" data-toggle="collapse" aria-expanded="true">07 Комментарии</a>
+		<a class="cms-menu__link" href="#collapse7" data-toggle="collapse" aria-expanded="true">C 07 Комментарии</a>
 		<ul id="collapse7" class="cms-menu__submenu collapse in">
-			<li><a class="cms-menu__link" href="/cms-comments--articles.php">07.1 К статьям</a></li>
-			<li><a class="cms-menu__link" href="/cms-comments--products.php">07.2 К товарам</a></li>
-			<li><a class="cms-menu__link" href="/cms-comments--page.php">07.3 Редактирование</a></li>
+			<li><a class="cms-menu__link" href="/cms-comments--articles.php">C 07.1 К статьям</a></li>
+			<li><a class="cms-menu__link" href="/cms-comments--products.php">C 07.2 К товарам</a></li>
+			<li><a class="cms-menu__link" href="/cms-comments--page.php">C 07.3 Редактирование</a></li>
 		</ul>
 	</div>
 
 	<div class="cms-menu__item">
-		<a class="cms-menu__link" href="#collapse8" data-toggle="collapse" aria-expanded="true">08 Пользователи</a>
+		<a class="cms-menu__link" href="#collapse8" data-toggle="collapse" aria-expanded="true">C 08 Пользователи</a>
 		<ul id="collapse8" class="cms-menu__submenu collapse in">
-			<li><a class="cms-menu__link" href="/cms-users--list.php">08.1 Все пользователи</a></li>
-			<li><a class="cms-menu__link" href="/cms-users--page.php">08.2 Редактировать пользователя</a></li>
+			<li><a class="cms-menu__link" href="/cms-users--list.php">C 08.1 Все пользователи</a></li>
+			<li><a class="cms-menu__link" href="/cms-users--page.php">C 08.2 Редактировать пользователя</a></li>
 		</ul>
 	</div>
 
 	<div class="cms-menu__item">
-		<a class="cms-menu__link" href="#collapse9" data-toggle="collapse" aria-expanded="true">09 Парсер</a>
+		<a class="cms-menu__link" href="#collapse9" data-toggle="collapse" aria-expanded="true">C 09 Парсер</a>
 		<ul id="collapse9" class="cms-menu__submenu collapse in">
-			<li><a class="cms-menu__link" href="/cms-parser--list.php">09.1 Список парсеров</a></li>
+			<li><a class="cms-menu__link" href="/cms-parser--list.php">C 09.1 Список парсеров</a></li>
 		</ul>
 	</div>
 
 	<div class="cms-menu__item">
-		<a class="cms-menu__link" href="#collapse11" data-toggle="collapse" aria-expanded="true">10 Настройки сайта</a>
+		<a class="cms-menu__link" href="#collapse11" data-toggle="collapse" aria-expanded="true">C 10 Настройки сайта</a>
 		<ul id="collapse11" class="cms-menu__submenu collapse in">
-			<li><a class="cms-menu__link" href="/cms-settings--main.php">10.1 Главные настройки</a></li>
+			<li><a class="cms-menu__link" href="/cms-settings--main.php">C 10.1 Главные настройки</a></li>
 		</ul>
 	</div>
 
