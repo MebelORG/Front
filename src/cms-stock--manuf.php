@@ -8,7 +8,7 @@
 
 			<div class="cms-content">
 
-				<h2>Фабрики</h2>
+				<h2>Продавцы</h2>
 
 				<div class="cms-stock-manuf">
 
@@ -16,7 +16,7 @@
 
 
   					<div class="cms-actions">
-  						<a class="cms-btn--link" href="/cms-stock--manuf-edit.php">Добавить фабрику</a>
+  						<a class="cms-btn--link" href="/cms-stock--manuf-edit.php">Добавить продавца</a>
   					</div>
 
 						<table class="cms-table">
