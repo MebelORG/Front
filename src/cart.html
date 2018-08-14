@@ -1,6 +1,6 @@
 //= template/header.html
 
-	<section id="cart">
+	<section id="cart" class="cart">
 		<div class="container">
 			<div class="row">
 				<div class="col-xl-9">
@@ -17,230 +17,277 @@
 							<object type="image/svg+xml" data="img/print.svg">Your browser does not support SVGs</object>
 						</div>
 					</div>
-					<div class="cart-wrap">
-						<div class="cart-wrap__top">
-							<h4>Продавец 1</h4>
-						</div>
-						<table class="cart-wrap__body">
-							<tr class="cart-wrap__body_title">
-								<th></th>
-								<th>Товар</th>
-								<th>Цена за ед</th>
-								<th>Количество</th>
-								<th>Сумма</th>
-							</tr>
-							<tr>
-								<td>
-									<img class="cart-wrap__body_img" src="img/cart2.jpg" alt="">
-								</td>
-								<td>
-									<h4 class="cart-wrap__body_title">Настенное зеркало ПЗ-4</h4>
-									<p class="cart-wrap__body_color">Цвет: Белый сонома</p>
-									<p class="cart-wrap__body_size">1600x1220x1500</p>
-								</td>
-								<td>
-									<p class="cart-wrap__body_price">4 485 руб.</p>
-								</td>
-								<td>
-									<div class="cart-wrap__changer">
-										<span class="cart-wrap__changer_change">-</span>
-										<input class="cart-wrap__changer_input" type="text" placeholder="1">
-										<span class="cart-wrap__changer_change">+</span>
-									</div>
-								</td>
-								<td>
-									<p class="cart-wrap__body_price">4 485 руб.</p>
-									<span class="cart-wrap__body_del">Удалить</span>
-								</td>
-							</tr>
-						</table>
-						<div class="cart__wrap_body">
-							<div class="row">
-								<div class="col-auto">
-									<img class="cart__wrap_img" src="img/cart2.jpg" alt="">
-								</div>
-								<div class="col-sm">
-									<div class="cart__info">
-										<div class="col-auto">
-											<p class="cart__wrap_title">Товар</p>
-											<div class="cart__descr_wrap">
-												<h4>Настенное зеркало ПЗ-4</h4>
-												<p class="cart__wrap_descr">Цвет: Белый сонома</p>
-												<p class="cart__wrap_descr">1600x1220x1500</p>
-											</div>
-										</div>
-										<div class="col-auto">
-											<p class="cart__wrap_title">Цена за ед</p>
-											<div class="cart__descr_wrap">
-												<p class="cart__wrap_price">4 485 руб.</p>
-											</div>
-										</div>
-										<div class="col-auto">
-											<p class="cart__wrap_title cart__title_num">Количество</p>
-											<div class="cart__descr_wrap">
-												<div class="cart__wrap_changer">
-													<span class="cart__wrap_change">-</span>
-													<input class="cart__wrap_input" type="text" placeholder="1">
-													<span class="cart__wrap_change">+</span>
-												</div>
-											</div>
-										</div>
-										<div class="col-auto">
-											<p class="cart__wrap_title">Сумма</p>
-											<div class="cart__descr_wrap">
-												<p class="cart__wrap_price">4 485 руб.</p>
-												<span class="cart__wrap_del">Удалить</span>
-											</div>
-										</div>
-									</div>
-								</div>
+					<!-- /cart-bread-crumbs -->
+
+					<div class="cart-sellers" data-sellers="">
+
+						<div class="cart-wrap cart-seller">
+							<div class="cart-wrap__top">
+								<h4>Продавец 1</h4>
 							</div>
-							<div class="row next-wrap">
-								<div class="col-auto">
-									<img class="cart__wrap_img" src="img/cart1.jpg" alt="">
-								</div>
-								<div class="col-sm">
-									<div class="cart__info">
-										<div class="col-auto">
-											<div class="cart__descr_wrap">
-												<h4>Настенное зеркало ПЗ-4</h4>
-												<p class="cart__wrap_descr">Цвет: Белый сонома</p>
-												<p class="cart__wrap_descr">1600x1220x1500</p>
-											</div>
+							<table class="cart-table cart-wrap__body">
+								<tr class="cart-wrap__body_title">
+									<th class="cart-table__pic"></th>
+									<th class="cart-table__name">Товар</th>
+									<th class="cart-table__price">Цена за ед</th>
+									<th class="cart-table__count">Количество</th>
+									<th class="cart-table__sum">Сумма</th>
+								</tr>
+
+								<tr class="cart-table__line">
+									<td class="cart-table__pic">
+										<div class="cart-table__img">
+											<img class="cart-wrap__body_img" src="img/product-2.jpg" alt="">
 										</div>
-										<div class="col-auto">
-											<div class="cart__descr_wrap">
-												<p class="cart__wrap_price">4 485 руб.</p>
-											</div>
+									</td>
+									<td class="cart-table__name">
+										<h4 class="cart-wrap__body_title"><a href="javascript:void(0);">Настенное зеркало ПЗ-4</a></h4>
+										<p class="cart-wrap__body_color">Цвет: Белый сонома</p>
+										<p class="cart-wrap__body_size">1600x1220x1500</p>
+									</td>
+									<td class="cart-table__price">
+										<p class="cart-wrap__body_price"><span class="cart-table__price-value">4 485</span> р</p>
+									</td>
+									<td class="cart-table__count">
+										<div class="cart-wrap__changer">
+											<span class="cart-wrap__changer_change cart-wrap__changer--minus">-</span>
+											<input class="cart-wrap__changer_input" type="text" value="1">
+											<span class="cart-wrap__changer_change cart-wrap__changer--plus">+</span>
 										</div>
-										<div class="col-auto">
-											<div class="cart__descr_wrap">
-												<div class="cart__wrap_changer">
-													<span class="cart__wrap_change">-</span>
-													<input class="cart__wrap_input" type="text" placeholder="1">
-													<span class="cart__wrap_change">+</span>
-												</div>
-											</div>
+									</td>
+									<td class="cart-table__sum">
+										<p class="cart-wrap__body_price"><span class="cart-table__sum-text">4 485</span> р</p>
+										<span class="cart-wrap__body_del">Удалить</span>
+									</td>
+								</tr>
+
+								<tr class="cart-table__line">
+									<td class="cart-table__pic">
+										<div class="cart-table__img">
+											<img class="cart-wrap__body_img" src="img/product-3.jpg" alt="">
 										</div>
-										<div class="col-auto">
-											<div class="cart__descr_wrap">
-												<p class="cart__wrap_price">4 485 руб.</p>
-												<span class="cart__wrap_del">Удалить</span>
-											</div>
+									</td>
+									<td class="cart-table__name">
+										<h4 class="cart-wrap__body_title"><a href="javascript:void(0);">Настенное зеркало ПЗ-4</a></h4>
+										<p class="cart-wrap__body_color">Цвет: Белый сонома</p>
+										<p class="cart-wrap__body_size">1600x1220x1500</p>
+									</td>
+									<td class="cart-table__price">
+										<p class="cart-wrap__body_price"><span class="cart-table__price-value">3 245</span> р</p>
+									</td>
+									<td class="cart-table__count">
+										<div class="cart-wrap__changer">
+											<span class="cart-wrap__changer_change cart-wrap__changer--minus">-</span>
+											<input class="cart-wrap__changer_input" type="text" value="1">
+											<span class="cart-wrap__changer_change cart-wrap__changer--plus">+</span>
 										</div>
-									</div>
-								</div>
-							</div>
+									</td>
+									<td class="cart-table__sum">
+										<p class="cart-wrap__body_price"><span class="cart-table__sum-text">3 245</span> р</p>
+										<span class="cart-wrap__body_del">Удалить</span>
+									</td>
+								</tr>
+
+								<tr class="cart-table__line">
+									<td class="cart-table__pic">
+										<div class="cart-table__img">
+											<img class="cart-wrap__body_img" src="img/product-4.jpg" alt="">
+										</div>
+									</td>
+									<td class="cart-table__name">
+										<h4 class="cart-wrap__body_title"><a href="javascript:void(0);">Настенное зеркало ПЗ-4</a></h4>
+										<p class="cart-wrap__body_color">Цвет: Белый сонома</p>
+										<p class="cart-wrap__body_size">1600x1220x1500</p>
+									</td>
+									<td class="cart-table__price">
+										<p class="cart-wrap__body_price"><span class="cart-table__price-value">1 234</span> р</p>
+									</td>
+									<td class="cart-table__count">
+										<div class="cart-wrap__changer">
+											<span class="cart-wrap__changer_change cart-wrap__changer--minus">-</span>
+											<input class="cart-wrap__changer_input" type="text" value="1">
+											<span class="cart-wrap__changer_change cart-wrap__changer--plus">+</span>
+										</div>
+									</td>
+									<td class="cart-table__sum">
+										<p class="cart-wrap__body_price"><span class="cart-table__sum-text">1 234</span> р</p>
+										<span class="cart-wrap__body_del">Удалить</span>
+									</td>
+								</tr>
+
+							</table>
 						</div>
+
+						<div class="cart-wrap cart-seller">
+							<div class="cart-wrap__top">
+								<h4>Продавец 2</h4>
+							</div>
+							<table class="cart-table cart-wrap__body">
+								<tr class="cart-wrap__body_title">
+									<th class="cart-table__pic"></th>
+									<th class="cart-table__name">Товар</th>
+									<th class="cart-table__price">Цена за ед</th>
+									<th class="cart-table__count">Количество</th>
+									<th class="cart-table__sum">Сумма</th>
+								</tr>
+
+								<tr class="cart-table__line">
+									<td class="cart-table__pic">
+										<div class="cart-table__img">
+											<img class="cart-wrap__body_img" src="img/product-2.jpg" alt="">
+										</div>
+									</td>
+									<td class="cart-table__name">
+										<h4 class="cart-wrap__body_title"><a href="javascript:void(0);">Настенное зеркало ПЗ-4</a></h4>
+										<p class="cart-wrap__body_color">Цвет: Белый сонома</p>
+										<p class="cart-wrap__body_size">1600x1220x1500</p>
+									</td>
+									<td class="cart-table__price">
+										<p class="cart-wrap__body_price"><span class="cart-table__price-value">4 485</span> р</p>
+									</td>
+									<td class="cart-table__count">
+										<div class="cart-wrap__changer">
+											<span class="cart-wrap__changer_change cart-wrap__changer--minus">-</span>
+											<input class="cart-wrap__changer_input" type="text" value="1">
+											<span class="cart-wrap__changer_change cart-wrap__changer--plus">+</span>
+										</div>
+									</td>
+									<td class="cart-table__sum">
+										<p class="cart-wrap__body_price"><span class="cart-table__sum-text">4 485</span> р</p>
+										<span class="cart-wrap__body_del">Удалить</span>
+									</td>
+								</tr>
+
+								<tr class="cart-table__line">
+									<td class="cart-table__pic">
+										<div class="cart-table__img">
+											<img class="cart-wrap__body_img" src="img/product-3.jpg" alt="">
+										</div>
+									</td>
+									<td class="cart-table__name">
+										<h4 class="cart-wrap__body_title"><a href="javascript:void(0);">Настенное зеркало ПЗ-4</a></h4>
+										<p class="cart-wrap__body_color">Цвет: Белый сонома</p>
+										<p class="cart-wrap__body_size">1600x1220x1500</p>
+									</td>
+									<td class="cart-table__price">
+										<p class="cart-wrap__body_price"><span class="cart-table__price-value">3 245</span> р</p>
+									</td>
+									<td class="cart-table__count">
+										<div class="cart-wrap__changer">
+											<span class="cart-wrap__changer_change cart-wrap__changer--minus">-</span>
+											<input class="cart-wrap__changer_input" type="text" value="1">
+											<span class="cart-wrap__changer_change cart-wrap__changer--plus">+</span>
+										</div>
+									</td>
+									<td class="cart-table__sum">
+										<p class="cart-wrap__body_price"><span class="cart-table__sum-text">3 245</span> р</p>
+										<span class="cart-wrap__body_del">Удалить</span>
+									</td>
+								</tr>
+
+								<tr class="cart-table__line">
+									<td class="cart-table__pic">
+										<div class="cart-table__img">
+											<img class="cart-wrap__body_img" src="img/product-4.jpg" alt="">
+										</div>
+									</td>
+									<td class="cart-table__name">
+										<h4 class="cart-wrap__body_title"><a href="javascript:void(0);">Настенное зеркало ПЗ-4</a></h4>
+										<p class="cart-wrap__body_color">Цвет: Белый сонома</p>
+										<p class="cart-wrap__body_size">1600x1220x1500</p>
+									</td>
+									<td class="cart-table__price">
+										<p class="cart-wrap__body_price"><span class="cart-table__price-value">1 234</span> р</p>
+									</td>
+									<td class="cart-table__count">
+										<div class="cart-wrap__changer">
+											<span class="cart-wrap__changer_change cart-wrap__changer--minus">-</span>
+											<input class="cart-wrap__changer_input" type="text" value="1">
+											<span class="cart-wrap__changer_change cart-wrap__changer--plus">+</span>
+										</div>
+									</td>
+									<td class="cart-table__sum">
+										<p class="cart-wrap__body_price"><span class="cart-table__sum-text">1 234</span> р</p>
+										<span class="cart-wrap__body_del">Удалить</span>
+									</td>
+								</tr>
+
+							</table>
+						</div>
+
 					</div>
-					<div class="cart__wrap">
-						<div class="cart__wrap_top">
-							<h4>Продавец 2</h4>
-						</div>
-						<div class="cart__wrap_body">
-							<div class="row">
-								<div class="col-auto">
-									<img class="cart__wrap_img" src="img/cart2.jpg" alt="">
-								</div>
-								<div class="col-sm">
-									<div class="cart__info">
-										<div class="col-auto">
-											<p class="cart__wrap_title">Товар</p>
-											<div class="cart__descr_wrap">
-												<h4>Настенное зеркало ПЗ-4</h4>
-												<p class="cart__wrap_descr">Цвет: Белый сонома</p>
-												<p class="cart__wrap_descr">1600x1220x1500</p>
-											</div>
-										</div>
-										<div class="col-auto">
-											<p class="cart__wrap_title">Цена за ед</p>
-											<div class="cart__descr_wrap">
-												<p class="cart__wrap_price">4 485 руб.</p>
-											</div>
-										</div>
-										<div class="col-auto">
-											<p class="cart__wrap_title cart__title_num">Количество</p>
-											<div class="cart__descr_wrap">
-												<div class="cart__wrap_changer">
-													<span class="cart__wrap_change">-</span>
-													<input class="cart__wrap_input" type="text" placeholder="1">
-													<span class="cart__wrap_change">+</span>
-												</div>
-											</div>
-										</div>
-										<div class="col-auto">
-											<p class="cart__wrap_title">Сумма</p>
-											<div class="cart__descr_wrap">
-												<p class="cart__wrap_price">4 485 руб.</p>
-												<span class="cart__wrap_del">Удалить</span>
-											</div>
-										</div>
+					<!-- /cart-sellers -->
+
+
+
+				</div>
+				<!-- /col -->
+				<div class="col-xl-3">
+					<div class="cart-info">
+						<form action="" class="cart-form">
+							<div class="cart-form__hat">
+								<p>Итого</p>
+							</div>
+							<div class="cart-form__body">
+								<div class="cart-form__price"><span class="cart-form__price-count">0</span> р</div>
+
+								<div class="cart-form__underprice">
+									<div class="card-form__count">
+										<span class="card-form__count-number"></span>
+										<span class="card-form__count-text">товаров</span>
+									</div>
+									<div class="cart-form__underprice-text"><span>,</span>&nbsp;</div>
+									<div class="cart-form__manuf">
+										<span>от</span>
+										<span class="cart-form__manuf-count">2</span>
+										<span class="cart-form__manuf-text">производителей</span>
 									</div>
 								</div>
-							</div>
-							<div class="row next-wrap">
-								<div class="col-auto">
-									<img class="cart__wrap_img" src="img/cart1.jpg" alt="">
+								<!-- /cart-form__underprice -->
+
+								<div class="cart-form__wrap">
+									<input class="cart-form__input cart-form__input-name" type="text" name="name" placeholder="Имя">
+									<input class="cart-form__input cart-form__input-phone" type="text" name="phone" placeholder="Телефон">
+									<input class="cart-form__input cart-form__input-email" type="email" name="email" placeholder="Email">
+									<textarea type="text" class="cart-form__comment" name="comment" placeholder="По желанию: Комментарий и адрес доставки"></textarea>
 								</div>
-								<div class="col-sm">
-									<div class="cart__info">
-										<div class="col-auto">
-											<div class="cart__descr_wrap">
-												<h4>Настенное зеркало ПЗ-4</h4>
-												<p class="cart__wrap_descr">Цвет: Белый сонома</p>
-												<p class="cart__wrap_descr">1600x1220x1500</p>
-											</div>
-										</div>
-										<div class="col-auto">
-											<div class="cart__descr_wrap">
-												<p class="cart__wrap_price">4 485 руб.</p>
-											</div>
-										</div>
-										<div class="col-auto">
-											<div class="cart__descr_wrap">
-												<div class="cart__wrap_changer">
-													<span class="cart__wrap_change">-</span>
-													<input class="cart__wrap_input" type="text" placeholder="1">
-													<span class="cart__wrap_change">+</span>
-												</div>
-											</div>
-										</div>
-										<div class="col-auto">
-											<div class="cart__descr_wrap">
-												<p class="cart__wrap_price">4 485 руб.</p>
-												<span class="cart__wrap_del">Удалить</span>
-											</div>
-										</div>
-									</div>
-								</div>
+								<label class="cart-form__agree">
+									<input checked="checked" type="checkbox">
+									Cоглашаюсь на обработку персональных данных.
+								</label>
+								<button class="cart-form__btn-send cta-btn__full btn-blocked" type="button" disabled>Оформить заказ</button>
+								<!-- <button class="card-form__btn-send cta-btn__full" type="button">Оформить заказ</button> -->
 							</div>
-						</div>
+						</form>
 					</div>
 				</div>
-				<div class="col-xl-3">
-					<form action="" class="cart-form">
-						<div class="cart-form__hat">
-							<p>Итого</p>
-						</div>
-						<div class="cart-form__body">
-							<span class="cart-form__price">250 000 руб.</span>
-							<span class="cart-form__underprice">4 товара, от 3 производителей</span>
-							<div class="cart-form__wrap">
-								<input class="cart-form__input" type="text" placeholder="Имя, Фамилия, Отчество" name="name">
-								<input class="cart-form__input" type="text" placeholder="Телефон" name="phone">
-								<input class="cart-form__input" type="text" placeholder="E-mail" name="e-mail">
-								<textarea type="text" class="cart-form__comment" name="comment" placeholder="По желанию : Комментарий и адрес доставки"></textarea>
-							</div>
-							<label class="cart-form__agree">
-								<input checked="checked" type="checkbox">
-								Cоглашаюсь на обработку персональных данных.
-							</label>
-							<button class="cta-btn__full">Оформить заказ</button>
-						</div>
-					</form>
+			</div>
+		</div>
+		<div class="cart-preloader">
+			<div class="cart-preloader__content">
+				<h2 class="cart-preloader__text">Данные отправляются...</h2>
+				<div class="cart-preloader__pic">
+					<img src="img/preloader.gif" alt="">
+				</div>
+			</div>
+		</div>
+		<!-- /cart-preloader -->
+	</section>
+
+	<section id="empty" class="empty-page" style="display: none;">
+		<div class="container">
+			<div class="empty">
+				<div class="row">
+					<div class="col-12">
+						<img src="img/empty.png" alt="">
+						<h2>В вашей корзине пусто? Это не страшно!</h2>
+						<p>Если Вы зарегистрированы у нас на сайте, и в вашей корзине были товары, то чтобы их увидеть необходимо авторизоваться</p>
+						<a href="" class="cta-btn__full">Перейти к покупкам</a>
+					</div>
 				</div>
 			</div>
 		</div>
 	</section>
-	
-//= template/footer.html
+
+
+	//= template/footer.html
