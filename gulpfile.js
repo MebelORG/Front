@@ -49,7 +49,7 @@ var config = {
     server: {
         baseDir: "./build"
     },
-    tunnel: true,
+    tunnel: false,
     host: 'localhost',
     port: 9000,
     logPrefix: "MebelORG"
@@ -148,5 +148,13 @@ gulp.task('watch', function(){
     });
 });
 
+
+gulp.task('webserver', function () { 
+browserSync(config); 
+}); 
+
+gulp.task('clean', function (cb) { 
+rimraf(path.clean, cb); 
+}); 
 
 gulp.task('default', ['build', 'webserver', 'watch']);
