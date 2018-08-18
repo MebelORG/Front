@@ -371,6 +371,9 @@
         .header__account-menu {
           display: block;
         }
+        .header__login {
+          display: block;
+        }
       }
       &-menu {
         display: none;
@@ -401,6 +404,7 @@
 
         }
       }
+
     }
     &__cart {
       &-count {
@@ -483,6 +487,79 @@
         top: -6px;
         transform: translateX(-50%) rotate(45deg);
         z-index: -1;
+      }
+    }
+  }
+  &__login {
+    display: none;
+    position: absolute;
+    top: 60px;
+    right: -25px;
+    padding: 20px;
+    width: 200px;
+    background: #1E91D3;
+    border-radius: 3px;
+    z-index: 5;
+    &:after {
+      position: absolute;
+      content: '';
+      top: -20px;
+      left: 0;
+      height: 30px;
+      width: 100%;
+      // background: red;
+    }
+    &:before {
+      position: absolute;
+      content: '';
+      // background-color: #1E91D3;
+      background-color: #1E91D3;
+      // border: 1px solid #fff;
+      height: 20px;
+      right: 33px;
+      top: -10px;
+      transform: rotate(45deg);
+      transition: border-color .25s ease-in;
+      transition: background-color .25s ease-in;
+      width: 20px;
+      z-index: -1;
+    }
+    &-in {
+      display: block;
+      margin-bottom: 20px;
+      color: #fff;
+      line-height: 40px;
+      text-align: center;
+    }
+    &-register {
+      text-align: center;
+      border-bottom: 1px solid #fff;
+      padding-bottom: 20px;
+      margin-bottom: 20px;
+      &-text {
+        color: #fff;
+      }
+      &-link {
+        color: #fff;
+        &:hover {
+          color: #fff;
+          text-decoration: underline;
+        }
+      }
+    }
+    &-shop {
+      text-align: center;
+      &-link {
+        display: block;
+        color: #fff;
+        line-height: 40px;
+        text-align: center;
+        // &:hover {
+        //   color: #fff;
+        //   &:hover {
+        //     text-decoration: underline;
+        //   }
+        // }
       }
     }
   }

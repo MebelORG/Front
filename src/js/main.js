@@ -1,5 +1,7 @@
 //= partials/old/dropzone.min.js
 
+//= partials/_same-articles.js
+
 //= partials/old/foundation.min.js
 
 //= partials/old/jquery.countTo.js
@@ -24,7 +26,7 @@
 
 //= partials/_recomendation-goods.js
 
-//= partials/_same-articles.js
+//= partials/_selection-furniture.js
 
 
 

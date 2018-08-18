@@ -1,3 +1,7 @@
+
+$blue: #0077CC;
+$cyan: #36AAEC;
+
 .pa {
   padding: 20px 0;
   background: #FBFCFD;
@@ -88,7 +92,7 @@
       width: 0;
       bottom: 0;
       left: 0;
-      background: #2D475A;
+      background: $blue;
     }
 
     &:hover {
@@ -98,30 +102,30 @@
         height: 3px;
         bottom: 0;
         left: 0;
-        background: #2D475A;
+        background: $blue;
         transition: 0.3s;
       }
 
       span {
-        color: #2D475A;
+        color: $blue;
       }
 
       svg {
         path {
-          fill: #2D475A;
+          fill: $blue;
         }
       }
     }
 
     &--active {
       span {
-        color: #2D475A;
+        color: $blue;
       }
 
       .pa-nav__pic {
         svg {
           path {
-            fill: #2D475A;
+            fill: $blue;
           }
         }
       }
@@ -195,7 +199,7 @@
       // background: #EBF0F5;
       // background: lighten(#EBF0F5,10%);
       // background-color: lighten(#EBF0F5,10%);
-      color: #2D475A;
+      color: $blue;
       background-color: lighten(#EBF0F5,3%);
 
       &:after {
@@ -205,14 +209,14 @@
         right: 0;
         height: 100%;
         width: 4px;
-        background: #2D475A;
+        background: $blue;
       }
     }
 
     &:hover {
       // background: #EBF0F5;
       background-color: lighten(#EBF0F5,3%);
-      color: #2D475A;
+      color: $blue;
     }
   }
 
@@ -321,13 +325,13 @@
       align-items: center;
       padding: 10px 10px 10px 0;
       // margin-right: 45px;
-      color: #2D475A;
+      color: $blue;
       font-size: 12px;
       border-bottom: 1px solid #E9E9E9;
       height: 100%;
 
       &:hover {
-        color: #2D475A;
+        color: $blue;
       }
     }
 
@@ -365,7 +369,7 @@
       margin-right: 5px;
       // font-size: 12px;
       font-weight: bold;
-      // color: #2D475A;
+      // color: $blue;
     }
 
     &-count {
@@ -438,7 +442,7 @@
     padding: 25px;
     border: 1px solid #E9E9E9;
     border-radius: 0 0 3px 3px;
-    color: #2D475A;
+    color: $blue;
 
     &-item {
       margin-bottom: 10px;
@@ -533,7 +537,7 @@
       margin-right: 25px;
       font-size: 14px;
       line-height: 14px;
-      color: #2D475A;
+      color: $blue;
     }
 
     &-all {
@@ -585,11 +589,11 @@
 
       &:hover {
         .pa-photos__add-pic {
-          border-color: #1E91D3;
+          border-color: $blue;
 
           svg {
             path {
-              fill: #1E91D3;
+              fill: $blue;
             }
           }
         }
@@ -628,7 +632,170 @@
   }
 }
 
-.pa-selection {}
+.pa-selection {
+  &__chat-requests {
+    background: #fff;
+    border-top-left-radius: 3px;
+    border-bottom-left-radius: 3px;
+    height: 100%;
+  }
+  &__chat-request {
+    border-bottom: 2px solid #f7f7f7;
+    padding: 1.25em;
+    color: #9aa0a4;
+    &:hover{
+      color: $blue;
+    }
+    &.active, &.active:hover {
+      background: $blue;
+      color: #fff;
+    }
+  }
+  &__chat-companies {
+    background: #fff;
+    height: 100%;
+  }
+  &__chat-messeges{
+    background: #fff;
+    position: relative;
+  }
+  &__chat-top-messege {
+    position: absolute;
+    background: #fff;
+    padding: 1.25em;
+    width: 100%;
+    z-index: 99;
+    top: 0;
+    border-bottom: 2px solid rgb(247, 247, 247);
+  }
+  &__chat-messege {
+    padding: 0.625em 1.25em;
+    overflow: hidden;
+  }
+  &__chat {
+    border: 1px solid #e9e9e9;
+    border-radius: 3px;
+    background: #fff;
+     overflow: hidden;
+  }
+  &__chat-requests {
+    background: #fff;
+    border-right: 1px solid #e9e9e9;
+    display: inherit;
+  }
+  &__chat-avatar {
+    width: 3em;
+    background: #f90;
+    height: 3em;
+    border-radius: 10em;
+  }
+  &__chat-messeges {
+    border-left: 1px solid #e9e9e9;
+    background: #f7f7f7;
+  }
+  &__chat-company {
+    padding: 1.25em;
+    &-img,&-disable-img {
+      border: 2px solid;
+      border-color: #e9e9e9;
+    }
+    &.active .pa-selection__chat-company-img,&.active .pa-selection__chat-company-disable-img {
+      border-color: $blue;
+    }
+  }
+  &__chat-add-messege {
+    background: #fff;
+    padding: 1.25em;
+    height: 8em;
+    border-left: 1px solid rgb(233, 233, 233);
+    position: absolute;
+    bottom: 0;
+    width: calc(100% - 20px);
+    textarea{
+      width: calc(100% - 4.25em);
+      background: #f7f7f7;
+      border-radius: 3px;
+      border: 1px solid #e9e9e9;
+      padding: .625em;
+      resize: none;
+    }
+    button{
+      width: 3em;
+      height: 3em;
+      background: #1e91d3;
+      color: #fff;
+      text-align: center;
+      padding: 0;
+      position: absolute;
+      right: 1.25em;
+      border-radius: 10em;
+    }
+  }
+  &__chat-company-img {
+    width: 3em;
+    height: 3em;
+    background: #f90;
+    border-radius: 1000em;
+    position: relative;
+  }
+  &__chat-company-disable-img {
+    width: 3em;
+    height: 3em;
+    position: relative;
+    background: rgb(247, 247, 247);
+    border-radius: 1000em;
+  }
+  &__chat-messeges.fade:not(.show) {
+    visibility: hidden;
+  }
+  #company-disable {
+    height: 100%;
+    z-index: 20;
+  }
+  &__chat-text {
+    display: inline-block;
+    max-width: 30em;
+    margin: 0 1.25em;
+    padding: 0.625em 1.25em;
+    border-radius: 3px;
+    background: #fff;
+    border: 1px solid #e9e9e9;
+  }
+  &__chat-messegeses {
+    width: 100%;
+    padding: 1.25em 0;
+
+  }
+  &__chat .row {
+    height: 80vh;
+  }
+  &__chat-company-notice {
+    position: absolute;
+    right: -.5em;
+    top: -.5em;
+    background: $blue;
+    border-radius: 10em;
+    width: 1.5em;
+    height: 1.5em;
+    color: #fff;
+    font-size: .825em;
+  }
+  &__chat-messeges {
+    height: calc(100% - 8em);
+    border-top-right-radius: 3px;
+    border-bottom-right-radius: 3px;
+    position: absolute;
+    top: 0;
+    width: calc(100% - 20px);
+  }
+  &__chat-add-request{
+    position: absolute;
+    bottom: 1.25em;
+    left: 1.25em;
+    right: 1.25em;
+  }
+
+}
 
 .pa-articles {}
 
@@ -684,7 +851,7 @@
       padding-left: 10px;
 
       &:focus {
-        border-color: #2D475A;
+        border-color: $blue;
       }
     }
 
@@ -818,11 +985,11 @@
       }
 
       &--active {
-        background: #2D475A;
+        background: $blue;
         color: #fff;
       }
       &:hover {
-        background: #2D475A;
+        background: $blue;
         color: #fff;
       }
     }
@@ -904,7 +1071,7 @@
       margin-bottom: 5px;
       line-height: 25px;
       font-size: 18px;
-      color: #2D475A;
+      color: $blue;
     }
   }
 
@@ -948,7 +1115,7 @@
       margin-right: 10px;
       width: 24px;
       height: 24px;
-      background: #2D475A;
+      background: $blue;
       border-radius: 50%;
       color: #fff;
       font-size: 10px;
@@ -980,7 +1147,7 @@
 
 .pa-btn {
   min-width: 137px;
-  background: #2D475A;
+  background: $blue;
   border: 1px solid #E9E9E9;
   border-radius: 3px;
   font-size: 14px;
@@ -989,7 +1156,7 @@
   transition: 0.3s;
 
   &:hover {
-    background: lighten(#2D475A, 5%);
+    background: lighten($blue, 5%);
   }
 }
 

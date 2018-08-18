@@ -1424,22 +1424,35 @@ $('.merch-tabs__nav-item').click(function() {
 
 
 
-new Chartist.Line('.ct-chart', {
-  labels: [1, 2, 3, 4, 5, 6, 7, 8],
-  series: [
-    [5, 9, 7, 8, 5, 3, 5, 4]
-  ]
-}, {
-  low: 0,
-  showArea: true
+
+// заявка на подбор мебели
+$('.merch-selection__sidebar-item').click(function () {
+  $('.merch-selection__sidebar-item').removeClass('merch-selection__sidebar-item--active');
+  $(this).addClass('merch-selection__sidebar-item--active');
 });
 
-new Chartist.Line('.ct-chart2', {
-  labels: [1, 2, 3, 4, 5, 6, 7, 8],
-  series: [
-    [0, 2, 3, 5, 4, 2, 7, 5]
-  ]
-}, {
-  low: 0,
-  showArea: true
+// точки у элемента
+$('.merch-selection__more-icon').click(function () {
+  $(this).closest('.merch-selection__more').find('.merch-selection__more-list').show();
+});
+$('.merch-selection__more-item').click(function () {
+  $(this).closest('.merch-selection__more-list').hide();
+});
+
+// скрыть блок more
+jQuery(function($) {
+  $(document).mouseup(function(e) {
+    var div = $('.merch-selection__more-list');
+    if (!div.is(e.target) &&
+      div.has(e.target).length === 0) {
+      div.hide();
+    }
+  });
+});
+
+// страница Настройки
+$('.merch-options__list-item').click(function() {
+
+  $(this).addClass('merch-options__list-item--active').siblings().removeClass('merch-options__list-item--active')
+    .closest('.merch').find('.merch-options__block').hide().eq($(this).index()).show();
 });

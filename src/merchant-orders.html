@@ -1,0 +1,239 @@
+//= template/hat-foot/head.html
+
+<body>
+
+	<header class="merch-header">
+
+		<div class="merch-header__logo">
+			<img src="img/manuf-5.png" alt="">
+		</div>
+		<div class="merch-header__name">
+			<h3>Верона мебель</h3>
+		</div>
+		<div class="merch-header__id">
+			Ваш ID: 443
+		</div>
+		<div class="merch-header__notice">
+			<p class="merch-header__notice-text">Новые события:</p>
+			<a class="merch-header__notice-item" href="#">Заказы
+        <div class="merch-header__notice-count"><span>5</span></div>
+      </a>
+			<a class="merch-header__notice-item" href="#">Отзывы
+        <div class="merch-header__notice-count"><span>2</span></div>
+      </a>
+		</div>
+
+		<button class="merch-header__logout">Выйти</button>
+
+	</header>
+
+	<div class="merch">
+
+		<div class="merch-sidebar">
+
+			<nav class="merch-nav">
+				<ul class="merch-nav__list">
+					<li class="merch-nav__item">
+						<a class="merch-nav__link" href="/merchant-selection.html">Заявки</a>
+					</li>
+					<li class="merch-nav__item">
+						<a class="merch-nav__link" href="/merchant-options.html">Настройки</a>
+					</li>
+				</ul>
+			</nav>
+
+			<div class="merch-sidebar__balance">
+				<div class="merch-sidebar__balance-text">Билинг</div>
+				<a class="merch-sidebar__balance-link merch-btn--link" href="javascript:void(0);">Пополнить</a>
+			</div>
+
+		</div>
+		<!-- /merch-sidebar -->
+
+		<div class="merch-content">
+
+			<div class="merch-content__top">
+
+				<h2 class="merch-content__title">Заказы</h2>
+
+				<div class="merch-toolbar">
+					<a class="merch-btn--link" href="/merchant-orders--new.html">Добавить заказ</a>
+				</div>
+				<!-- /merch-toolbar -->
+
+			</div>
+			<!-- /merch-content__top -->
+
+			<div class="merch-tabs">
+
+				<div class="merch-tabs__nav">
+					<div class="merch-tabs__nav-item merch-tabs__nav-item--active">Все заказы</div>
+					<div class="merch-tabs__nav-item">Новые</div>
+					<div class="merch-tabs__nav-item">Оплаченные</div>
+					<div class="merch-tabs__nav-item">Неоплаченные</div>
+				</div>
+				<!-- /merch-tabs__nav -->
+
+				<div class="merch-tabs__content">
+
+					<div class="merch-tabs__item">
+						<table class="merch-table">
+							<thead>
+								<tr>
+									<td class="text-center"><input type="checkbox"></td>
+									<td>Номер</td>
+									<td>Дата заказа</td>
+									<td>Заказчик</td>
+									<td>Статус</td>
+									<td>Сумма</td>
+									<td>Оплата</td>
+									<td>Дата</td>
+									<td class="text-center">Смотреть</td>
+								</tr>
+							</thead>
+							<tbody>
+								<tr>
+									<td class="text-center"><input type="checkbox"></td>
+									<td>3534</td>
+									<td>02.03.2018</td>
+									<td>Василий Иванов</td>
+									<td>Новый</td>
+									<td>15 000 р</td>
+									<td>При получении</td>
+									<td>06.05.2018</td>
+									<td class="text-center"><a class="merch-btn--show" href="#"><img src="img/show-eye.svg" alt=""></a></td>
+								</tr>
+								<tr>
+									<td class="text-center"><input type="checkbox"></td>
+									<td>3534</td>
+									<td>02.03.2018</td>
+									<td>Василий Иванов</td>
+									<td>Новый</td>
+									<td>15 000 р</td>
+									<td>При получении</td>
+									<td>06.05.2018</td>
+									<td class="text-center"><a class="merch-btn--show" href="#"><img src="img/show-eye.svg" alt=""></a></td>
+								</tr>
+								<tr>
+									<td class="text-center"><input type="checkbox"></td>
+									<td>3534</td>
+									<td>02.03.2018</td>
+									<td>Василий Иванов</td>
+									<td>Обработан</td>
+									<td>15 000 р</td>
+									<td>При получении</td>
+									<td>06.05.2018</td>
+									<td class="text-center"><a class="merch-btn--show" href="#"><img src="img/show-eye.svg" alt=""></a></td>
+								</tr>
+								<tr>
+									<td class="text-center"><input type="checkbox"></td>
+									<td>3534</td>
+									<td>02.03.2018</td>
+									<td>Василий Иванов</td>
+									<td>Собирается</td>
+									<td>15 000 р</td>
+									<td>При получении</td>
+									<td>06.05.2018</td>
+									<td class="text-center"><a class="merch-btn--show" href="#"><img src="img/show-eye.svg" alt=""></a></td>
+								</tr>
+								<tr>
+									<td class="text-center"><input type="checkbox"></td>
+									<td>3534</td>
+									<td>02.03.2018</td>
+									<td>Василий Иванов</td>
+									<td>Отправлен</td>
+									<td>15 000 р</td>
+									<td>При получении</td>
+									<td>06.05.2018</td>
+									<td class="text-center"><a class="merch-btn--show" href="#"><img src="img/show-eye.svg" alt=""></a></td>
+								</tr>
+							</tbody>
+						</table>
+
+					</div>
+					<div class="merch-tabs__item">
+						<table class="merch-table">
+							<thead>
+								<tr>
+									<td class="text-center"><input type="checkbox"></td>
+									<td>Номер</td>
+									<td>Дата заказа</td>
+									<td>Заказчик</td>
+									<td>Сумма</td>
+									<td>Оплата</td>
+									<td>Дата</td>
+									<td class="text-center">Смотреть</td>
+								</tr>
+							</thead>
+							<tbody>
+								<tr>
+									<td class="text-center"><input type="checkbox"></td>
+									<td>3534</td>
+									<td>02.03.2018</td>
+									<td>Василий Иванов</td>
+									<td>15 000 р</td>
+									<td>При получении</td>
+									<td>06.05.2018</td>
+									<td class="text-center"><a class="merch-btn--show" href="#"><img src="img/show-eye.svg" alt=""></a></td>
+								</tr>
+								<tr>
+									<td class="text-center"><input type="checkbox"></td>
+									<td>3534</td>
+									<td>02.03.2018</td>
+									<td>Василий Иванов</td>
+									<td>15 000 р</td>
+									<td>При получении</td>
+									<td>06.05.2018</td>
+									<td class="text-center"><a class="merch-btn--show" href="#"><img src="img/show-eye.svg" alt=""></a></td>
+								</tr>
+								<tr>
+									<td class="text-center"><input type="checkbox"></td>
+									<td>3534</td>
+									<td>02.03.2018</td>
+									<td>Василий Иванов</td>
+									<td>15 000 р</td>
+									<td>При получении</td>
+									<td>06.05.2018</td>
+									<td class="text-center"><a class="merch-btn--show" href="#"><img src="img/show-eye.svg" alt=""></a></td>
+								</tr>
+								<tr>
+									<td class="text-center"><input type="checkbox"></td>
+									<td>3534</td>
+									<td>02.03.2018</td>
+									<td>Василий Иванов</td>
+									<td>15 000 р</td>
+									<td>При получении</td>
+									<td>06.05.2018</td>
+									<td class="text-center"><a class="merch-btn--show" href="#"><img src="img/show-eye.svg" alt=""></a></td>
+								</tr>
+								<tr>
+									<td class="text-center"><input type="checkbox"></td>
+									<td>3534</td>
+									<td>02.03.2018</td>
+									<td>Василий Иванов</td>
+									<td>15 000 р</td>
+									<td>При получении</td>
+									<td>06.05.2018</td>
+									<td class="text-center"><a class="merch-btn--show" href="#"><img src="img/show-eye.svg" alt=""></a></td>
+								</tr>
+							</tbody>
+						</table>
+
+					</div>
+
+				</div>
+				<!-- /merch-tabs__content -->
+
+			</div>
+			<!-- /merch-tabs -->
+
+		</div>
+		<!-- /merch-content -->
+
+	</div>
+	<!-- /merch -->
+
+
+
+
+	//= template/hat-foot/foot.html

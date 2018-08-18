@@ -1,6 +1,7 @@
 .footer {
   background: #F7F7F7;
   padding-bottom: 45px;
+  margin-top: 0;
   &-bottom {
     .container {
       display: flex;
@@ -64,3 +65,18 @@
      margin-left: 20px;
    }
  }
+
+.social-svg {
+    cursor: pointer;
+}
+
+.social-svg path, .soc-tg {
+  fill: #ccc;
+  transition: .3s;
+}
+
+.social-svg:hover path, .soc-tg:hover {
+  fill: #999;
+}
+
+

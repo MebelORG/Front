@@ -495,7 +495,7 @@ $(document).ready(function(){
       $('.discount-category__navbar').toggleClass('discount-category__navbar_stable discount-category__navbar_fix');
     };
   });
-  $('a[href^="#"], *[data-href^="#"]').on('click', function(e){
+  $('.yackor a[href^="#"], .yackor *[data-href^="#"]').on('click', function(e){
         e.preventDefault();
         var t = 1000;
         var d = $(this).attr('data-href') ? $(this).attr('data-href') : $(this).attr('href');
@@ -505,4 +505,81 @@ $(document).ready(function(){
     $('.promo-catalog__filter_navbar').toggleClass('show');
   });
 
+});
+
+//SET
+
+$(document).ready(function(){
+  $('.complects-catalog__item__slider__sub-slider').slick({
+    dots: false,
+    infinite: false,
+    speed: 300,
+    slidesToShow: 4,
+    slidesToScroll: 4,
+    responsive: [
+      {
+        breakpoint: 1024,
+        settings: {
+          slidesToShow: 3,
+          slidesToScroll: 3,
+          infinite: true,
+          dots: true
+        }
+      },
+      {
+        breakpoint: 600,
+        settings: {
+          slidesToShow: 2,
+          slidesToScroll: 2
+        }
+      },
+      {
+        breakpoint: 480,
+        settings: {
+          slidesToShow: 1,
+          slidesToScroll: 1
+        }
+      }
+      // You can unslick at a given breakpoint now by adding:
+      // settings: "unslick"
+      // instead of a settings object
+    ]
+  });
+  $('.complects-catalog__item__slider__for').slick({
+   slidesToShow: 1,
+   slidesToScroll: 1,
+   arrows: false,
+   fade: true,
+   asNavFor: '.complects-catalog__slider_nav-wrap'
+  });
+  $('.complects-catalog__slider_nav-wrap').slick({
+   slidesToShow: 4,
+   slidesToScroll: 1,
+   asNavFor: '.complects-catalog__item__slider__for',
+   vertical: true,
+   dots: false,
+   verticalSwiping: true,
+   centerMode: true,
+   focusOnSelect: true
+  });
+  $( ".complects-catalog__content__tag" ).click(function() {
+    $(this).remove();
+    if (!$('.complects-catalog__content__tag').length) {
+      $('.complects-catalog__content__tags_wrap').append( "<p class='epsent'>Упс..</p>");
+    }
+  });
+});
+
+//MODAL 
+
+$('#show-password-sign-in').click(function() {
+   var type;
+   $(this).siblings('#password-sign-in').attr('type') === 'password' ? type='text' : type='password';
+   $('#password-sign-in').prop('type', type);
+});
+
+$('#show-password-sign-out').click(function() {
+   var type;
+   $(this).siblings('#password-sign-out').attr('type') === 'password' ? type='text' : type='password';
+   $('#password-sign-out').prop('type', type);
 });

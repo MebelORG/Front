@@ -25,11 +25,11 @@
 			transition:.3s ease;
 			&-back, &-forward {
 				width: 92px;
-				border:1px solid #00b8f6;
-				color:#00b8f6;
+				border:1px solid #0077CC;
+				color:#0077CC;
 				background: none;
 				&:hover {
-					background:#00b8f6;
+					background:#0077CC;
 					color:#fff;
 				}
 			}
@@ -53,9 +53,9 @@
 					border-right:1px solid #ccc;
 				}
 				&:hover {
-					background:#00b8f6;
+					background:#0077CC;
 					color:#fff;
-					border: 1px solid #00b8f6;
+					border: 1px solid #0077CC;
 					border-right: 0px;
 				}
 			}
@@ -79,7 +79,7 @@
 			border: 1px solid #CCCCCC;
 			border-radius: 3px;
 			&:focus {
-				border-color: #00b8f6;
+				border-color: #0077CC;
 			}
 		}
 		&-go {
@@ -102,8 +102,8 @@
 				}
 			}
 			&:hover {
-				background: #00b8f6;
-				border-color: #00b8f6;
+				background: #0077CC;
+				border-color: #0077CC;
 				svg {
 					path {
 						fill: #fff;
