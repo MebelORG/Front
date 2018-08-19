@@ -3,10 +3,40 @@
 */
 @import "../../node_modules/normalize.css/normalize.css";
 
+$theme-colors: (
+  "primary": #1e91d3,
+  "danger": #ff4136,
+  "success":#14af69,
+);
+
+$body-bg: #fff;
+$body-color: #333;
+
+$blue: #1e91d3;
+$cyan: #BDE7FF;
+
+$grid-gutter-width: 1.25em;
+
+$grid-breakpoints: (
+  xs: 0,
+  sm: 540px,
+  md: 720px,
+  lg: 960px,
+  xl: 1366px
+);
+$container-max-widths: (
+  sm: 540px,
+  md: 720px,
+  lg: 960px,
+  xl: 1366px,
+);
+
 /*
 * Bootstrap
 */
 @import "../../node_modules/bootstrap/scss/bootstrap";
+
+@import "parteils/_specification_2";
 
 /*
 * Slick slider
