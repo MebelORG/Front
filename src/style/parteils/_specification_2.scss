@@ -7,7 +7,9 @@ a{
     color: $gray-600;
   }
 }
-
+h1,h2,h3,h4{
+  font-weight: bold;
+}
 .section{padding: 2rem 0;}
 .slick-slider{margin: 0 -0.625rem;}
 .slick-slide{padding: 0 .625rem;}
