@@ -74,17 +74,17 @@
 				              </li>
 				              <li class="nav-item">
 				                <a class="nav-link pa-selection__chat-company" id="company-home-tab" data-toggle="pill" href="#company-home" role="tab" aria-controls="company-home" aria-selected="true">
-				                  <div class="pa-selection__chat-company-img"><div class="pa-selection__chat-company-notice text-center">1</div></div>
+				                  <div class="pa-selection__chat-company-img" data-toggle="tooltip" data-placement="right" title="Имя компании"><div class="pa-selection__chat-company-notice text-center">1</div></div>
 				                </a>
 				              </li>
 				              <li class="nav-item">
 				                <a class="nav-link pa-selection__chat-company" id="company-profile-tab" data-toggle="pill" href="#company-profile" role="tab" aria-controls="company-profile" aria-selected="false">
-				                  <div class="pa-selection__chat-company-img"><div class="pa-selection__chat-company-notice text-center">2</div></div>
+				                  <div class="pa-selection__chat-company-img" data-toggle="tooltip" data-placement="right" title="Имя компании"><div class="pa-selection__chat-company-notice text-center">2</div></div>
 				                </a>
 				              </li>
 				              <li class="nav-item">
 				                <a class="nav-link pa-selection__chat-company" id="company-contact-tab" data-toggle="pill" href="#company-contact" role="tab" aria-controls="company-contact" aria-selected="false">
-				                  <div class="pa-selection__chat-company-img"><div class="pa-selection__chat-company-notice text-center">3</div></div>
+				                  <div class="pa-selection__chat-company-img" data-toggle="tooltip" data-placement="right" title="Имя компании"><div class="pa-selection__chat-company-notice text-center">3</div></div>
 				                </a>
 				              </li>
 				            </ul>
@@ -93,17 +93,17 @@
 				            <ul class="nav" id="pills-tab" role="tablist">
 				              <li class="nav-item">
 				                <a class="nav-link pa-selection__chat-company" id="company-home-tab" data-toggle="pill" href="#company-home" role="tab" aria-controls="company-home" aria-selected="true">
-				                  <div class="pa-selection__chat-company-img"><div class="pa-selection__chat-company-notice text-center">4</div></div>
+				                  <div class="pa-selection__chat-company-img" data-toggle="tooltip" data-placement="right" title="Имя компании"><div class="pa-selection__chat-company-notice text-center">4</div></div>
 				                </a>
 				              </li>
 				              <li class="nav-item">
 				                <a class="nav-link pa-selection__chat-company" id="company-profile-tab" data-toggle="pill" href="#company-profile" role="tab" aria-controls="company-profile" aria-selected="false">
-				                  <div class="pa-selection__chat-company-img"><div class="pa-selection__chat-company-notice text-center">5</div></div>
+				                  <div class="pa-selection__chat-company-img" data-toggle="tooltip" data-placement="right" title="Имя компании"><div class="pa-selection__chat-company-notice text-center">5</div></div>
 				                </a>
 				              </li>
 				              <li class="nav-item">
 				                <a class="nav-link pa-selection__chat-company" id="company-contact-tab" data-toggle="pill" href="#company-contact" role="tab" aria-controls="company-contact" aria-selected="false">
-				                  <div class="pa-selection__chat-company-img"><div class="pa-selection__chat-company-notice text-center">6</div></div>
+				                  <div class="pa-selection__chat-company-img" data-toggle="tooltip" data-placement="right" title="Имя компании"><div class="pa-selection__chat-company-notice text-center">6</div></div>
 				                </a>
 				              </li>
 				            </ul>
@@ -112,17 +112,17 @@
 				            <ul class="nav" id="pills-tab" role="tablist">
 				              <li class="nav-item">
 				                <a class="nav-link pa-selection__chat-company" id="company-home-tab" data-toggle="pill" href="#company-home" role="tab" aria-controls="company-home" aria-selected="true">
-				                  <div class="pa-selection__chat-company-img"><div class="pa-selection__chat-company-notice text-center">7</div></div>
+				                  <div class="pa-selection__chat-company-img" data-toggle="tooltip" data-placement="right" title="Имя компании"><div class="pa-selection__chat-company-notice text-center">7</div></div>
 				                </a>
 				              </li>
 				              <li class="nav-item">
 				                <a class="nav-link pa-selection__chat-company" id="company-profile-tab" data-toggle="pill" href="#company-profile" role="tab" aria-controls="company-profile" aria-selected="false">
-				                  <div class="pa-selection__chat-company-img"><div class="pa-selection__chat-company-notice text-center">8</div></div>
+				                  <div class="pa-selection__chat-company-img" data-toggle="tooltip" data-placement="right" title="Имя компании"><div class="pa-selection__chat-company-notice text-center">8</div></div>
 				                </a>
 				              </li>
 				              <li class="nav-item">
 				                <a class="nav-link pa-selection__chat-company" id="company-contact-tab" data-toggle="pill" href="#company-contact" role="tab" aria-controls="company-contact" aria-selected="false">
-				                  <div class="pa-selection__chat-company-img"><div class="pa-selection__chat-company-notice text-center">9</div></div>
+				                  <div class="pa-selection__chat-company-img" data-toggle="tooltip" data-placement="right" title="Имя компании"><div class="pa-selection__chat-company-notice text-center">9</div></div>
 				                </a>
 				              </li>
 				            </ul>
@@ -195,80 +195,125 @@
 				<!-- /pa-selection -->
 
 				<div class="pa-profile">
+
+
 					<div class="pa-container">
-
-						<form class="pa-profile__form pa-profile__photo" action="">
-							<h5>Ваша фотография</h5>
-							<div class="pa-profile__photo-pic">
-								<img src="img/pa-avatar.png" alt="">
-							</div>
-							<div class="pa-profile__photo-buttons">
-								<button class="pa-btn">Загрузить</button>
-							</div>
-						</form>
-
-						<form class="pa-profile__form pa-profile__data" action="">
-							<div class="pa-profile__form-item">
+						<div class="row">
+							<div class="col-md-12">
 								<h5>Личные данные</h5>
-								<div class="pa-profile__form-block">
-									<p>Имя</p>
-									<input class="pa-profile__form-field" type="text">
+								<div class="row">
+									<div class="col-12">
+										<div class="form-group">
+											<div class="input-group">
+											  <div class="input-group-prepend">
+											    <span class="input-group-text" id="inputGroupFileAddon01"><img src="img/pa-avatar.png" alt="" class="border rounded-circle" style="max-height: 1.5em;"></span>
+											  </div>
+											  <div class="custom-file">
+											    <input type="file" class="custom-file-input" id="inputGroupFile02">
+											    <label class="custom-file-label" for="inputGroupFile02" aria-describedby="inputGroupFileAddon02">Выбрать изображение</label>
+											  </div>
+											  <div class="input-group-append">
+											    <button class="btn btn-outline-primary" type="button" id="inputGroupFileAddon04">Загрузить</button>
+											  </div>
+											</div>
+										</div>
+									</div>
 								</div>
-								<div class="pa-profile__form-block">
-									<p>Телефон</p>
-									<input class="pa-profile__form-field" type="text" placeholder="+7">
+								<div class="row">
+									<div class="col-md-4">
+										<div class="form-group">
+											<div class="input-group">
+											  <div class="input-group-prepend">
+											    <span class="input-group-text" id="form__name">Имя</span>
+											  </div>
+											  <input type="text" class="form-control" placeholder="Иван" aria-label="Имя" aria-describedby="form__name">
+											</div>
+										</div>
+									</div>
+									<div class="col-md-4">
+										<div class="form-group">
+											<div class="input-group">
+											  <div class="input-group-prepend">
+											    <span class="input-group-text" id="form__birthday">Дата рождения</span>
+											  </div>
+											  <input type="date" class="form-control" placeholder="Дата рождения" aria-label="Дата рождения" aria-describedby="form__birthday">
+											</div>
+										</div>
+									</div>
+									<div class="col-md-4">
+										<div class="form-group">
+											<div class="input-group">
+											  <div class="input-group-prepend">
+											    <span class="input-group-text" id="form__male">Пол</span>
+											  </div>
+												<select class="form-control" aria-label="Имя" aria-describedby="form__male">
+									        <option>Мужской</option>
+													<option>Женский</option>
+									      </select>
+											</div>
+										</div>
+									</div>
 								</div>
-								<div class="pa-profile__form-block">
-									<p>Email</p>
-									<input class="pa-profile__form-field" type="email">
+								<div class="row d-flex align-items-center">
+									<div class="col-md-4">
+										<div class="form-group">
+											<div class="input-group">
+											  <div class="input-group-prepend">
+											    <span class="input-group-text" id="form__mail">E-mail</span>
+											  </div>
+											  <input type="email" class="form-control" placeholder="exemple@exemple.ru" aria-label="E-mail" aria-describedby="form__mail">
+											</div>
+										</div>
+									</div>
+									<div class="col-md-4">
+										<div class="form-group">
+											<div class="input-group">
+											  <div class="input-group-prepend">
+											    <span class="input-group-text" id="form__phone">Телефон</span>
+											  </div>
+											  <input type="phone" class="form-control" placeholder="+7" aria-label="Телефон" aria-describedby="form__phone">
+											</div>
+										</div>
+									</div>
+									<div class="col-md-4">
+										<div class="form-group">
+							        <input type="checkbox" value="" name="">
+							        <label class="form-check-label" for="gridCheck1">
+							          Дать доступ компаний к телефону
+							        </label>
+										</div>
+									</div>
 								</div>
-								<div class="pa-profile__form-block">
-									<p>Дата рождения</p>
-									<input class="pa-profile__form-field pa-profile__date" type="text">
-									<input class="pa-profile__form-field pa-profile__month" type="text">
-									<input class="pa-profile__form-field pa-profile__year" type="text">
-								</div>
-							</div>
-							<div class="pa-profile__form-item pa-profile__male">
-								<h5>Пол</h5>
-								<div class="pa-profile__male-inputs">
-									<label>
-										<input type="radio" value="" name="male">
-										<p>Мужской</p>
-									</label>
-									<label>
-										<input type="radio" value="" name="male">
-										<p>Женский</p>
-									</label>
-								</div>
-								<button class="pa-btn">Сохранить</button>
-							</div>
-						</form>
-
-						<form class="pa-profile__form pa-profile__pass" action="">
-							<div class="pa-profile__form-item">
 								<h5>Пароль</h5>
-								<p>Сменить пароль</p>
-								<div class="pa-profile__form-block">
-									<input class="pa-profile__form-field" type="password">
-									<div class="pa-profile__pass-show">
-										<object type="image/svg+xml" data="img/pa-pass.svg"></object>
+								<div class="row">
+									<div class="col-md-4">
+										<div class="form-group input-group">
+											<div class="input-group-prepend">
+												<span class="input-group-text" id="form__phone">Новый пароль</span>
+											</div>
+											<input class="form-control" type="password">
+											<div class="input-group-append">
+												<button class="btn btn-outline-secondary" type="button"><object type="image/svg+xml" data="img/pa-pass.svg"></object></button>
+											</div>
+										</div>
+									</div>
+									<div class="col-md-4">
+										<div class="form-group input-group">
+											<div class="input-group-prepend">
+												<span class="input-group-text" id="form__phone">Повторите пароль</span>
+											</div>
+											<input class="form-control" type="password">
+											<div class="input-group-append">
+												<button class="btn btn-outline-secondary" type="button"><object type="image/svg+xml" data="img/pa-pass.svg"></object></button>
+											</div>
+										</div>
 									</div>
 								</div>
-								<p>Подтвердить пароль</p>
-								<div class="pa-profile__form-block">
-									<input class="pa-profile__form-field" type="password">
-									<div class="pa-profile__pass-show">
-										<object type="image/svg+xml" data="img/pa-pass.svg"></object>
-									</div>
-								</div>
-								<div class="pa-profile__pass-bottom">
-									<button class="pa-btn">Поменять</button>
-									<button class="pa-profile__forgot">Забыли пароль?</button>
+								<div class="form-group">
+									<button class="btn btn-primary col-12" type="button" name="button">Обновить информацию</button>
 								</div>
 							</div>
-						</form>
-
+						</div>
 					</div>
 					<!-- /pa-container -->
 				</div>
@@ -935,5 +980,10 @@
 				</div>
 		 </div>
 		</section>
-
 //= template/footer.html
+
+<script>
+$(function () {
+	$('[data-toggle="tooltip"]').tooltip()
+})
+</script>

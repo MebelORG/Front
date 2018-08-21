@@ -631,6 +631,9 @@ $cyan: #36AAEC;
     }
   }
 }
+.custom-file-input ~ .custom-file-label::after {
+    display: none;
+}
 
 .pa-selection {
   &__chat-requests {
@@ -645,9 +648,10 @@ $cyan: #36AAEC;
     color: #9aa0a4;
     &:hover{
       color: $blue;
+      background: none !important;
     }
     &.active, &.active:hover {
-      background: $blue;
+      background: $blue !important;
       color: #fff;
     }
   }
@@ -702,6 +706,9 @@ $cyan: #36AAEC;
     &.active .pa-selection__chat-company-img,&.active .pa-selection__chat-company-disable-img {
       border-color: $blue;
     }
+    &:hover{
+      background: #fff !important;
+    }
   }
   &__chat-add-messege {
     background: #fff;
@@ -737,6 +744,9 @@ $cyan: #36AAEC;
     background: #f90;
     border-radius: 1000em;
     position: relative;
+    &:hover{
+      border-color: $blue;
+    }
   }
   &__chat-company-disable-img {
     width: 3em;
